@@ -1,0 +1,628 @@
+Troop 212 巨神像  Page 2 Line 1:  - Comment: 壞結局
+Common Event 2 指令 Line 1:  - Comment: 下=0  左=1  右=2  上=3  Ａ=*  Ｂ=5 Ｃ=6  Ｘ=7  Ｙ=8  Ｚ=開始
+Common Event 2 指令 Line 2:  - Comment: Ｌ=10  Ｒ=11
+Common Event 5 自製Game Over Line 20:  - Comment: 死亡種類
+Common Event 5 自製Game Over Line 21:  - Comment: 　可復活戰=1
+Common Event 5 自製Game Over Line 22:  - Comment: 　不可復活=2
+Common Event 5 自製Game Over Line 23:  - Comment: 　劇情死亡=3
+Common Event 25 轟愛心 Line 15:  - Comment: -----------------------------------------------------------------------------------
+Common Event 34 特殊戰鬥開始 Line 2:  - Comment: -------------------------------Leo----------------------------
+Common Event 34 特殊戰鬥開始 Line 22:  - Comment: -------------------------------守護者狐狸----------------------------
+Common Event 34 特殊戰鬥開始 Line 40:  - Comment: -------------------------------祈----------------------------
+Common Event 34 特殊戰鬥開始 Line 60:  - Comment: -------------------------------Leo----------------------------
+Common Event 34 特殊戰鬥開始 Line 85:  - Comment: -------------------------------亮光光頭----------------------------
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 360:  - Comment: 苦力喵劇情
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 386:  - Comment: 國泰劇情
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 69:  - Comment: 火肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 75:  - Comment: 水肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 81:  - Comment: 闇肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 125:  - Comment: 火肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 130:  - Comment: 水肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 135:  - Comment: 闇肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 161:  - Comment: ----------------Good Ending！------------------
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 67:  - Comment: 火肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 73:  - Comment: 水肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 79:  - Comment: 闇肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 131:  - Comment: 火肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 142:  - Comment: 水肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 153:  - Comment: 闇肥
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 2 Line 212:  - Comment: ----------------Good Ending！------------------
+Map 14 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 3:  - Comment: 火肥
+Map 14 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 10:  - Comment: 水肥
+Map 14 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 17:  - Comment: 闇肥
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 1 Line 46:  - Comment: 秘密神殿-利歐-1
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 77:  - Comment: 秘密神殿-利歐-3
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 98:  - Comment: 秘密神殿-利歐-4
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 109:  - Comment: 秘密神殿-利歐-2
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 120:  - Comment: 秘密神殿-利歐-2
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 57:  - Comment: 秘密神殿-利歐-3
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 79:  - Comment: 秘密神殿-利歐-4
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 32:  - Comment: 秘密神殿-利歐-5
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 53:  - Comment: 秘密神殿-利歐-4
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 7 Line 8:  - Comment: 秘密神殿-利歐-2
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 8 Line 37:  - Comment: 秘密神殿-利歐-6
+Map 19 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 6:  - Comment: E187
+Map 19 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 1:  - Comment: <口速=1>
+Map 19 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 6:  - Comment: E187
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 36:  - Comment: 秘密神殿-苦力喵-4
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 65:  - Comment: 秘密神殿-苦力喵-3
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 83:  - Comment: 秘密神殿-苦力喵-2
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 98:  - Comment: 秘密神殿-苦力喵-1
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 3 Line 8:  - Comment: 秘密神殿-利歐-2
+Map 24 結婚~~~~~ - Event 3 婚禮主持人GE (10,12) - Page 1 Line 27:  - Comment: 火肥
+Map 24 結婚~~~~~ - Event 3 婚禮主持人GE (10,12) - Page 1 Line 230:  - Comment: 水肥
+Map 24 結婚~~~~~ - Event 3 婚禮主持人GE (10,12) - Page 1 Line 433:  - Comment: 闇肥
+Map 24 結婚~~~~~ - Event 3 婚禮主持人GE (10,12) - Page 6 Line 109:  - Comment: ---------------------其他人登場---------------------
+Map 26 亞空城-內部 - Event 5 EV005 (49,45) - Page 2 Line 1:  - Comment: 重製版
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 1:  - Comment: ST 1-1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 2:  - Comment: 01:進場動畫播放
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 3:  - Comment: 02:暫時關閉選關取消功能
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 4:  - Comment: 03:寶箱1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 5:  - Comment: 04:寶箱2
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 6:  - Comment: 05:寶箱3
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 1 Line 7:  - Comment: 06:寶箱4
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 1:  - Comment: ST 1-1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 2:  - Comment: 01:進場動畫播放
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 3:  - Comment: 02:暫時關閉選關取消功能
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 4:  - Comment: 03:寶箱1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 5:  - Comment: 04:苦力喵&國泰對話結束
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 6:  - Comment: 05:苦力喵&國泰對話開始
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 7:  - Comment: 06:苦力喵個人對話1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 8:  - Comment: 07:苦力喵個人對話2
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 2 Line 9:  - Comment: 08:苦力喵個人對話3
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 1:  - Comment: ST 1-3
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 2:  - Comment: 01:進場動畫播放
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 3:  - Comment: 02:暫時關閉選關取消功能
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 4:  - Comment: 03:寶箱1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 5:  - Comment: 04:寶箱2
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 6:  - Comment: 05:寶箱3
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 7:  - Comment: 06:寶箱4
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 8:  - Comment: 07:告示牌
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 9:  - Comment: 08:垃圾放置1
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 10:  - Comment: 09:垃圾放置2
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 11:  - Comment: 10:垃圾放置3
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 12:  - Comment: 11:國泰出現
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 13:  - Comment: 12:國泰變深
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 14:  - Comment: 13:劇情角色出現
+Map 39 Stage 1-隊伍編成 - Event 18 EV018 (1,0) - Page 3 Line 15:  - Comment: 14:C入事件結束
+Map 41 Stage 1-2-2 - Event 49 EV049 (5,27) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 50 EV050 (39,27) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 51 EV051 (37,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 52 EV052 (3,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 53 EV053 (5,30) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 54 EV054 (6,25) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 55 EV055 (3,20) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 56 EV056 (11,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 57 EV057 (44,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 58 EV058 (36,24) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 59 EV059 (41,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 60 EV060 (36,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 61 EV061 (23,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 63 EV063 (5,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 64 EV064 (4,33) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 65 EV065 (7,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 66 EV066 (38,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 67 EV067 (45,27) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 68 EV068 (5,32) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 69 EV069 (3,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 70 EV070 (4,21) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 71 EV071 (42,25) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 72 EV072 (36,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 73 EV073 (37,32) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 74 EV074 (47,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 75 EV075 (29,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 41 Stage 1-2-2 - Event 76 EV076 (17,14) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 758:  - Comment: 行動指令說明：
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 759:  - Comment: 1=移動到定點 (15,2)
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 760:  - Comment: 2=衝向主角(橫向)
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 761:  - Comment: 3=放三顆火球
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 762:  - Comment: 4=終向主角(直向)
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 763:  - Comment: 5=炎射(衡) 範圍:Y=3
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 764:  - Comment: 6=炎射(直) 範圍X=3
+Map 46 Stage 1-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 765:  - Comment: 7=地炎(區塊:8)
+Map 51 Stage 2-2 - Event 35 EV035 (22,36) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 36 EV036 (26,34) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 37 EV037 (40,37) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 38 EV038 (43,30) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 39 EV039 (11,39) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 40 EV040 (15,39) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 41 EV041 (23,38) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 42 EV042 (21,45) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 43 EV043 (25,27) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 44 EV044 (4,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 45 EV045 (4,35) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 46 EV046 (3,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 47 EV047 (4,21) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 51 Stage 2-2 - Event 48 EV048 (13,19) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 9 EV009 (12,11) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 10 EV010 (11,16) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 11 EV011 (12,19) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 12 EV012 (20,18) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 13 EV013 (31,19) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 14 EV014 (27,18) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 15 EV015 (34,18) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 16 EV016 (14,18) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 17 EV017 (34,12) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 18 EV018 (32,14) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 54 Stage 2-3 - Event 19 EV019 (32,7) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 7 EV007 (28,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 8 EV008 (24,4) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 9 EV009 (30,6) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 10 EV010 (27,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 11 EV011 (31,18) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 12 EV012 (32,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 55 Stage 2-1 - Event 13 EV013 (33,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 10 EV010 (23,29) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 11 EV011 (35,29) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 12 EV012 (27,26) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 13 EV013 (19,39) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 14 EV014 (17,46) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 15 EV015 (17,15) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 16 EV016 (14,18) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 17 EV017 (49,9) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 18 EV018 (43,16) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 19 EV019 (17,19) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 20 EV020 (13,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 21 EV021 (19,10) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 22 EV022 (15,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 23 EV023 (16,38) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 24 EV024 (21,44) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 25 EV025 (22,40) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 26 EV026 (19,49) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 27 EV027 (46,38) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 28 EV028 (40,49) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 29 EV029 (40,42) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 30 EV030 (41,37) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 31 EV031 (46,21) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 32 EV032 (50,17) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 56 Stage 2-4 - Event 33 EV033 (42,11) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 13 EV013 (20,10) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 14 EV014 (37,11) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 15 EV015 (50,9) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 16 EV016 (46,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 17 EV017 (44,8) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 18 EV018 (46,11) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 19 EV019 (56,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 20 EV020 (14,11) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 21 EV021 (9,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 22 EV022 (13,9) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 23 EV023 (12,12) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 24 EV024 (13,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 25 EV025 (19,24) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 26 EV026 (34,24) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 27 EV027 (30,23) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 28 EV028 (45,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 29 EV029 (53,23) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 30 EV030 (53,41) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 31 EV031 (48,39) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 32 EV032 (32,34) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 33 EV033 (30,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 34 EV034 (20,42) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 35 EV035 (31,49) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 36 EV036 (14,27) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 37 EV037 (19,21) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 38 EV038 (17,23) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 39 EV039 (31,25) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 40 EV040 (35,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 41 EV041 (37,25) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 42 EV042 (44,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 43 EV043 (51,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 44 EV044 (59,37) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 45 EV045 (56,40) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 46 EV046 (43,42) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 47 EV047 (45,36) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 48 EV048 (32,42) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 49 EV049 (34,37) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 50 EV050 (15,44) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 57 Stage 2-5 - Event 51 EV051 (36,49) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 43 EV043 (19,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 44 EV044 (33,41) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 45 EV045 (45,36) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 46 EV046 (47,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 47 EV047 (37,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 48 EV048 (24,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 49 EV049 (16,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 50 EV050 (31,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 51 EV051 (27,6) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 52 EV052 (44,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 53 EV053 (46,23) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 54 EV054 (26,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 55 EV055 (7,6) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 56 EV056 (22,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 57 EV057 (21,10) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 58 EV058 (46,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 59 EV059 (48,18) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 60 EV060 (9,39) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 61 EV061 (47,34) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 62 EV062 (45,30) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 63 EV063 (42,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 58 Stage 2-6 - Event 64 EV064 (22,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 7 EV007 (18,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 8 EV008 (5,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 9 EV009 (10,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 10 EV010 (12,12) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 11 EV011 (17,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 60 Stage 2-7 - Event 12 EV012 (5,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 5 EV005 (12,14) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 6 EV006 (13,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 7 EV007 (17,6) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 8 EV008 (9,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 9 EV009 (3,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 61 Stage 2-7-2 - Event 10 EV010 (13,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 5 EV005 (12,9) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 6 EV006 (16,11) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 7 EV007 (15,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 8 EV008 (7,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 9 EV009 (5,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 62 Stage 2-7-3 - Event 10 EV010 (22,10) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 5 EV005 (8,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 6 EV006 (11,6) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 7 EV007 (15,7) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 8 EV008 (16,12) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 9 EV009 (12,9) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 63 Stage 2-7-4 - Event 10 EV010 (17,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 7 EV007 (19,11) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 8 EV008 (18,6) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 9 EV009 (8,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 10 EV010 (21,8) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 11 EV011 (22,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 12 EV012 (21,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 13 EV013 (13,12) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 14 EV014 (10,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 64 Stage 2-7-5 - Event 15 EV015 (23,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 49 EV049 (19,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 50 EV050 (33,41) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 51 EV051 (45,36) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 52 EV052 (46,23) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 53 EV053 (37,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 54 EV054 (26,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 55 EV055 (24,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 56 EV056 (27,6) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 57 EV057 (31,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 58 EV058 (44,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 59 EV059 (16,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 60 EV060 (47,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 61 EV061 (47,34) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 62 EV062 (45,30) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 63 EV063 (42,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 64 EV064 (22,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 65 EV065 (9,39) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 66 EV066 (48,18) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 67 EV067 (46,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 68 EV068 (22,5) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 69 EV069 (21,10) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 65 Stage 2-6 改 - Event 70 EV070 (7,6) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 7 EV007 (5,5) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 8 EV008 (5,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 9 EV009 (17,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 10 EV010 (12,12) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 12 EV012 (18,15) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 67 Stage 2-7 改 - Event 13 EV013 (10,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 5 EV005 (35,58) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 6 EV006 (33,61) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 7 EV007 (27,57) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 8 EV008 (25,60) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 9 EV009 (30,57) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 10 EV010 (38,47) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 11 EV011 (56,46) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 12 EV012 (20,46) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 13 EV013 (10,47) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 14 EV014 (2,55) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 15 EV015 (3,50) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 16 EV016 (0,60) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 17 EV017 (13,55) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 18 EV018 (15,50) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 19 EV019 (3,59) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 20 EV020 (1,52) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 21 EV021 (58,55) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 22 EV022 (57,59) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 23 EV023 (59,57) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 24 EV024 (57,52) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 25 EV025 (56,55) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 26 EV026 (45,50) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 27 EV027 (47,47) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 28 EV028 (48,55) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 29 EV029 (47,53) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 30 EV030 (44,57) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 31 EV031 (50,47) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 32 EV032 (54,46) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 33 EV033 (30,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 35 雷擊 (2,0) - Page 1 Line 50:  - Comment: -----------------------------------------------------------------------------------
+Map 70 Stage 3-1 - Event 35 雷擊 (2,0) - Page 1 Line 100:  - Comment: -----------------------------------------------------------------------------------
+Map 70 Stage 3-1 - Event 41 EV041 (0,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 42 EV042 (60,27) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 43 EV043 (1,17) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 44 EV044 (60,4) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 45 EV045 (0,29) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 46 EV046 (59,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 47 EV047 (0,20) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 48 EV048 (1,7) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 49 EV049 (60,11) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 50 EV050 (8,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 51 EV051 (11,3) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 52 EV052 (14,2) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 53 EV053 (18,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 54 EV054 (20,2) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 55 EV055 (27,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 56 EV056 (42,2) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 57 EV057 (49,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 58 EV058 (57,2) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 59 EV059 (36,3) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 60 EV060 (39,2) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 61 EV061 (46,3) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 62 EV062 (32,2) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 63 EV063 (20,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 70 Stage 3-1 - Event 64 EV064 (40,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 1 Line 22:  - Comment: 火肥
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 1 Line 36:  - Comment: 水肥
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 1 Line 50:  - Comment: 闇肥
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 2 Line 22:  - Comment: 火肥
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 2 Line 36:  - Comment: 水肥
+Map 71 雜項設施 2F - Event 3 結婚對象GE (8,21) - Page 2 Line 50:  - Comment: 闇肥
+Map 76 Stage 3-3 - Event 3 雷擊 (2,0) - Page 1 Line 50:  - Comment: -----------------------------------------------------------------------------------
+Map 76 Stage 3-3 - Event 3 雷擊 (2,0) - Page 1 Line 100:  - Comment: -----------------------------------------------------------------------------------
+Map 76 Stage 3-3 - Event 11 EV011 (48,75) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 12 EV012 (52,74) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 13 EV013 (55,66) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 14 EV014 (44,69) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 15 EV015 (49,70) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 16 EV016 (45,64) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 41 EV041 (51,64) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 42 EV042 (42,64) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 43 EV043 (41,67) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 44 EV044 (23,72) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 45 EV045 (26,67) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 46 EV046 (19,63) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 47 EV047 (20,67) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 48 EV048 (27,64) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 49 EV049 (26,74) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 50 EV050 (27,76) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 51 EV051 (20,77) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 52 EV052 (20,71) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 53 EV053 (79,71) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 54 EV054 (75,73) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 55 EV055 (74,62) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 56 EV056 (78,69) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 57 EV057 (75,70) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 58 EV058 (78,76) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 59 EV059 (81,68) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 60 EV060 (77,62) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 61 EV061 (75,62) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 62 EV062 (77,36) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 63 EV063 (78,35) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 64 EV064 (76,35) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 65 EV065 (77,37) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 66 EV066 (75,39) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 67 EV067 (71,41) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 68 EV068 (71,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 73 EV073 (57,37) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 74 EV074 (60,43) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 75 EV075 (60,46) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 76 EV076 (60,41) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 77 EV077 (59,48) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 78 EV078 (51,43) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 79 EV079 (47,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 80 EV080 (45,43) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 81 EV081 (45,48) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 82 EV082 (38,43) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 83 EV083 (40,48) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 84 EV084 (38,39) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 85 EV085 (49,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 86 EV086 (50,42) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 87 EV087 (49,43) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 88 EV088 (48,42) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 89 EV089 (48,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 90 EV090 (50,41) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 91 EV091 (50,43) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 76 Stage 3-3 - Event 92 EV092 (48,43) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 79 Stage2-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 3:  - Comment: ------------------------------------------------------------------------------------
+Map 79 Stage2-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 23:  - Comment: ------------------------------------------------------------------------------------
+Map 79 Stage2-colorless-BOSS - Event 7 BOSS指令 (2,0) - Page 1 Line 42:  - Comment: ------------------------------------------------------------------------------------
+Map 80 Stage 3-2 - Event 5 EV005 (22,11) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 6 EV006 (24,7) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 7 EV007 (27,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 8 EV008 (26,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 9 EV009 (19,9) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 10 EV010 (24,19) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 80 Stage 3-2 - Event 11 雷擊 (2,0) - Page 1 Line 50:  - Comment: -----------------------------------------------------------------------------------
+Map 80 Stage 3-2 - Event 11 雷擊 (2,0) - Page 1 Line 100:  - Comment: -----------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 480:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 481:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 482:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 483:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 484:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 1 Line 485:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 480:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 481:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 482:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 483:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 484:  - Comment: ------------------------------------------------------------------------------------
+Map 85 Stage 3-3-6 - Event 3 EV003 (16,7) - Page 2 Line 485:  - Comment: ------------------------------------------------------------------------------------
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 2 Line 48:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 3 Line 24:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 4 Line 42:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 5 Line 30:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 6 Line 30:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 7 Line 30:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 8 Line 30:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 9 Line 27:  - Comment: 死亡路線
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 10 Line 24:  - Comment: 死亡路線
+Map 101 CC男爵城：2F - Event 13 自動事件58 (36,17) - Page 1 Line 577:  - Comment: 龍馬生存線
+Map 101 CC男爵城：2F - Event 13 自動事件58 (36,17) - Page 1 Line 715:  - Comment: 艾里生存線
+Map 101 CC男爵城：2F - Event 13 自動事件58 (36,17) - Page 1 Line 869:  - Comment: ---------------------------------------------------------
+Map 104 利歐的堡壘：1層 - Event 8 士兵1 移動事件 (0,1) - Page 1 Line 48:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 8 士兵1 移動事件 (0,1) - Page 1 Line 104:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 10 士兵7 移動事件 (6,1) - Page 1 Line 62:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 10 士兵7 移動事件 (6,1) - Page 1 Line 118:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 12 士兵2 移動事件 (1,1) - Page 1 Line 46:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 12 士兵2 移動事件 (1,1) - Page 1 Line 102:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 16 士兵3 移動事件 (2,1) - Page 1 Line 47:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 16 士兵3 移動事件 (2,1) - Page 1 Line 103:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 20 士兵4 移動事件 (3,1) - Page 1 Line 34:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 20 士兵4 移動事件 (3,1) - Page 1 Line 90:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 22 士兵5 移動事件 (4,1) - Page 1 Line 12:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 22 士兵5 移動事件 (4,1) - Page 1 Line 68:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 25 士兵6 移動事件 (5,1) - Page 1 Line 42:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 25 士兵6 移動事件 (5,1) - Page 1 Line 98:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 30 士兵8 移動事件 (7,1) - Page 1 Line 41:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 30 士兵8 移動事件 (7,1) - Page 1 Line 97:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 33 士兵9 移動事件 (8,1) - Page 1 Line 37:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 33 士兵9 移動事件 (8,1) - Page 1 Line 93:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 36 士兵10 移動事件 (9,1) - Page 1 Line 26:  - Comment: 判定開始！！！！！！！！！！！！！！！！！！！！！！！！
+Map 104 利歐的堡壘：1層 - Event 36 士兵10 移動事件 (9,1) - Page 1 Line 82:  - Comment: 判定結束！！！！！！！！！！！！！！！！！！！！！！！！
+Map 109 奧爾格尼亞 - Event 66 雷擊 (0,0) - Page 1 Line 42:  - Comment: -----------------------------------------------------------------------------------
+Map 128 橋 峽谷 - Event 13 你叫1號 [13] (12,4) - Page 1 Line 1:  - Comment: <名稱=強盜1>
+Map 128 橋 峽谷 - Event 14 你叫2號 [14] (11,4) - Page 1 Line 1:  - Comment: <名稱=強盜2>
+Map 128 橋 峽谷 - Event 15 你叫3號 [15] (13,4) - Page 1 Line 1:  - Comment: <名稱=強盜3>
+Map 128 橋 峽谷 - Event 16 你叫4號 [16] (11,5) - Page 1 Line 1:  - Comment: <名稱=強盜4>
+Map 128 橋 峽谷 - Event 17 你叫5號 [17] 你不用講話了 (13,5) - Page 1 Line 1:  - Comment: <名稱=強盜5>
+Map 128 橋 峽谷 - Event 18 你叫6號 [18] (11,6) - Page 1 Line 1:  - Comment: <名稱=強盜6>
+Map 128 橋 峽谷 - Event 19 你叫7號 [19] (13,6) - Page 1 Line 1:  - Comment: <名稱=強盜7>
+Map 160 斐特蘭伊 - Event 24 雷擊 (14,38) - Page 1 Line 15:  - Comment: -----------------------------------------------------------------------------------
+Map 164 雷_殿 - Event 3 雷擊 (2,0) - Page 1 Line 50:  - Comment: -----------------------------------------------------------------------------------
+Map 164 雷_殿 - Event 3 雷擊 (2,0) - Page 1 Line 100:  - Comment: -----------------------------------------------------------------------------------
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 1 Line 155:  - Comment: 裏 最終BOSS路線
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 3 Line 155:  - Comment: 裏 最終BOSS路線
+Map 176 聖堂 內部 - Event 23 自動 恩匹西 [23] (25,14) - Page 2 Line 963:  - Comment: -----------------好結局-----------------------
+Map 179 廢棄民宅 - Event 8 自動事件 [8] (2,15) - Page 1 Line 1:  - Comment: <名稱=不相干的人>
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 728:  - Comment: ------------------------------------------------------------------------------------
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 729:  - Comment: ------------------------------------------------------------------------------------
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 730:  - Comment: ------------------------------------------------------------------------------------
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 731:  - Comment: ------------------------------------------------------------------------------------
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 732:  - Comment: ------------------------------------------------------------------------------------
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 2 Line 733:  - Comment: ------------------------------------------------------------------------------------
+Map 182 最終迷宮-亞空城 - Event 27 EV027 (160,240) - Page 1 Line 1:  - Comment: A 攻擊特效
+Map 182 最終迷宮-亞空城 - Event 27 EV027 (160,240) - Page 1 Line 2:  - Comment: B 攻擊判定
+Map 182 最終迷宮-亞空城 - Event 27 EV027 (160,240) - Page 1 Line 3:  - Comment: C 給予傷害
+Map 182 最終迷宮-亞空城 - Event 27 EV027 (160,240) - Page 2 Line 97:  - Comment: -----------------------------------------------------------
+Map 182 最終迷宮-亞空城 - Event 27 EV027 (160,240) - Page 2 Line 119:  - Comment: -----------------------------------------------------------
+Map 182 最終迷宮-亞空城 - Event 49 BOSS1 行動事件 (164,213) - Page 2 Line 1:  - Comment: ------重新指定招式用------
+Map 182 最終迷宮-亞空城 - Event 49 BOSS1 行動事件 (164,213) - Page 3 Line 1:  - Comment: ------招式1------
+Map 182 最終迷宮-亞空城 - Event 49 BOSS1 行動事件 (164,213) - Page 4 Line 1:  - Comment: ------招式2------
+Map 183 亞空城-內部 - Event 1 Leo [1] (8,6) - Page 1 Line 341:  - Comment: Hidden Route
+Map 228 赤劇情 - Event 24 雷擊 (14,38) - Page 1 Line 15:  - Comment: -----------------------------------------------------------------------------------
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 69:  - Comment: 火肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 75:  - Comment: 水肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 81:  - Comment: 闇肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 125:  - Comment: 火肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 130:  - Comment: 水肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 135:  - Comment: 闇肥
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 161:  - Comment: ----------------Good Ending！------------------
+Map 238 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 3:  - Comment: 火肥
+Map 238 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 10:  - Comment: 水肥
+Map 238 肥婆之塔 5F 幻 - Event 4 EV004 (25,30) - Page 1 Line 17:  - Comment: 闇肥
+Map 239 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 6:  - Comment: E187
+Map 239 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 1:  - Comment: <口速=1>
+Map 239 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 6:  - Comment: E187
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 36:  - Comment: 秘密神殿-苦力喵-4
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 65:  - Comment: 秘密神殿-苦力喵-3
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 83:  - Comment: 秘密神殿-苦力喵-2
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 98:  - Comment: 秘密神殿-苦力喵-1
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 15:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 32:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 47:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 64:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 79:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 96:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 111:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 128:  - Comment: ------------------------------------------------------------------------------------
+Map 255 奧爾格尼亞 - Event 67 EV067 (68,33) - Page 1 Line 143:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 177:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 188:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 365:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 376:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 553:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 564:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 741:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 752:  - Comment: ------------------------------------------------------------------------------------
+Map 256 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 929:  - Comment: ------------------------------------------------------------------------------------
+Map 258 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 101:  - Comment: ------------------------------------------------------------------------------------
+Map 258 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 202:  - Comment: ------------------------------------------------------------------------------------
+Map 258 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 303:  - Comment: ------------------------------------------------------------------------------------
+Map 258 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 404:  - Comment: ------------------------------------------------------------------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 345:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 362:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 379:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 396:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 415:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 432:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 449:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 508:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 525:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 542:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 559:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 576:  - Comment: ------------------------
+Map 281 塔5F - Event 5 赤 (10,8) - Page 1 Line 593:  - Comment: ------------------------
+Map 281 塔5F - Event 10 慢速對話用 (0,0) - Page 1 Line 1:  - Comment: <口速=15>
+Map 281 塔5F - Event 10 慢速對話用 (0,0) - Page 1 Line 2:  - Comment: <聲調=90>
+Map 288 塔 - Event 12 講超慢 (6,67) - Page 1 Line 1:  - Comment: <口速=15>
+Map 288 塔 - Event 12 講超慢 (6,67) - Page 1 Line 2:  - Comment: <聲調=50>
+Map 295 Stage 1-2-2 - Event 49 EV049 (5,27) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 50 EV050 (39,27) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 51 EV051 (37,33) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 52 EV052 (3,40) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 53 EV053 (5,30) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 54 EV054 (6,25) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 55 EV055 (3,20) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 56 EV056 (11,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 57 EV057 (44,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 58 EV058 (36,24) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 59 EV059 (41,22) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 60 EV060 (36,13) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 61 EV061 (23,14) - Page 3 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 63 EV063 (5,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 64 EV064 (4,33) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 65 EV065 (7,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 66 EV066 (38,22) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 67 EV067 (45,27) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 68 EV068 (5,32) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 69 EV069 (3,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 70 EV070 (4,21) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 71 EV071 (42,25) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 72 EV072 (36,28) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 73 EV073 (37,32) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 74 EV074 (47,24) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 75 EV075 (29,13) - Page 2 Line 1:  - Comment: <Overlap_Sensor>
+Map 295 Stage 1-2-2 - Event 76 EV076 (17,14) - Page 2 Line 1:  - Comment: <Overlap_Sensor>

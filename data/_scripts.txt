@@ -1,0 +1,1781 @@
+Skill 1 攻擊: Damage Formula: 0 + a.atk * 4 - b.def * 2
+Skill 3 連續攻擊: Damage Formula: a.atk * 4 - b.def * 2
+Skill 4 一石二鳥: Damage Formula: a.atk * 4 - b.def * 2
+Skill 5 左蕩右平: Damage Formula: a.atk * 4 - b.def * 2
+Skill 8 炎氣擊: Damage Formula: a.atk
+Skill 9 寒氣擊: Damage Formula: a.atk
+Skill 10 雷爆擊: Damage Formula: a.atk
+Skill 21 撞擊: Damage Formula: a.atk * 4 - b.def * 2
+Skill 23 吸血術: Damage Formula: a.atk * 2 - b.def
+Skill 24 凝神歸元: Damage Formula: b.mhp / 4
+Skill 26 治癒術: Damage Formula: 250 + a.mat
+Skill 27 二級治癒術: Damage Formula: 1000 + a.mat * 2
+Skill 28 三級治癒術: Damage Formula: 4000 + a.mat * 4
+Skill 29 五氣朝元: Damage Formula: 250 + a.mat
+Skill 30 普濟施萬民: Damage Formula: 1000 + a.mat * 2
+Skill 33 復活術: Damage Formula: b.mhp / 10
+Skill 34 高級復活術: Damage Formula: b.mhp / 2
+Skill 49 體力汲取術: Damage Formula: 200 + a.mat * 4 - b.mdf * 2
+Skill 50 法力汲取術: Damage Formula: 20 + a.mat - b.mdf * 0.5
+Skill 51 火咒: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 52 神火咒: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 53 亂焰穿空: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 54 煉獄真火: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 55 冰咒: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 56 玄冰咒: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 57 飛霜萬里: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 58 冰柱擎天: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 59 雷咒: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 60 天雷破: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 61 雷落若雨: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 62 燃雷裂天: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 63 水咒: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 64 斷虹霽雨: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 65 岩咒: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 66 五嶽擎天: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 67 風咒: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 68 風卷塵生: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 69 光咒: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 70 怒空摘星: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 71 闇咒: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 72 暗黑意志: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 73 爆破術: Damage Formula: 300 + a.mat * 2
+Skill 74 核爆輻射塵: Damage Formula: 300 + a.mat * 2
+Skill 80 強擊: Damage Formula: a.atk * 5 - b.def * 2
+Skill 81 橫掃: Damage Formula: a.atk * 2 - b.def * 2
+Skill 83 狂戰士之舞: Damage Formula: a.atk * 5 - b.def * 2
+Skill 84 暴跳的巨人: Damage Formula: a.atk * 12 - b.def * 6
+Skill 85 擒抱: Damage Formula: a.atk * 4 + a.def * 2 - b.def * 2
+Skill 88 無影腳: Damage Formula: a.atk * 5
+Skill 89 破龍爪圓舞: Damage Formula: a.atk * 12
+Skill 94 零式風暴: Damage Formula: a.atk * 5 - b.def * 2
+Skill 95 靈氣刃: Damage Formula: a.atk * 4 + a.mat * 3 - b.def - b.mdf
+Skill 99 聖光刃: Damage Formula: a.atk * 5 + a.mat * 5 - b.def - b.mdf
+Skill 100 破甲: Damage Formula: a.atk * 4
+Skill 103 燕返: Damage Formula: a.atk * 3 - b.def * 2
+Skill 104 櫻花夢幻刃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 105 武器破壞: Damage Formula: a.atk * 4 - b.def * 2
+Skill 106 護具破壞: Damage Formula: a.atk * 4 - b.def * 2
+Skill 108 三連射: Damage Formula: a.atk * 4 + a.agi * 2 - b.def * 2
+Skill 109 箭雨: Damage Formula: a.atk * 3 + a.agi * 2 - b.def * 2
+Skill 113 刺客利刃: Damage Formula: a.atk * 3 + a.luk * 4 - b.def * 2
+Skill 114 勇士利刃: Damage Formula: a.atk * 2 + a.luk * 4 - b.def * 2
+Skill 117 神罰: Damage Formula: a.mat * 5 - b.mdf
+Skill 122 魔力奔流: Damage Formula: b.mmp * 0.5
+Skill 134 連續攻擊: Damage Formula: a.atk * 4 - b.def * 2
+Skill 135 連續攻擊: Damage Formula: a.atk * 4 - b.def * 2
+Skill 139 魔人拳: Damage Formula: 300 + a.atk * 6 - b.def * 3
+Skill 145 噴火: Damage Formula: 100 + a.mat * 1 - b.mdf * 1
+Skill 147 破魔-散: Damage Formula: a.atk * 10 - b.def*2
+Skill 148 弒神-散: Damage Formula: a.atk * 10 - b.def*2
+Skill 150 屏氣養息: Damage Formula: 
+Skill 154 超必殺！: Damage Formula: b.mhp / 9
+Skill 157 斷開魂結: Damage Formula: 100 + a.atk * 40 + a.mat * 20 - b.def * 20 - b.mdf * 20
+Skill 158 斷開鎖鍊: Damage Formula: 100 + a.atk * 40 + a.mat * 20 - b.def * 20 - b.mdf * 20
+Skill 159 燒毀！！: Damage Formula: 100 + a.mat * 7 - b.mdf * 2
+Skill 168 嗜血之劍: Damage Formula: a.atk * 10 - b.def - b.mdf
+Skill 169 撞擊: Damage Formula: a.atk * 4 - b.def * 1
+Skill 170 超‧強力吸收: Damage Formula: b.mhp / 3
+Skill 172 踩: Damage Formula: 500 + a.atk * 12 < b.hp ? 500 + a.atk * 12 : b.hp - 1
+Skill 173 凌娜鑰匙機關槍: Damage Formula: 500 + a.atk * 12 - b.def * 6
+Skill 174 凌娜鑰匙爆彈: Damage Formula: 500 + a.mat * 36
+Skill 175 核爆輻射塵‧超: Damage Formula: 300 + a.mat * 6
+Skill 179 死亡之源: Damage Formula: b.mhp*0.8
+Skill 181 滅神之歌: Damage Formula: b.atk*2+16000
+Skill 182 核爆輻射塵‧超: Damage Formula: 300 + a.mat * 6
+Skill 184 陰氣之擊: Damage Formula: a.def*9+15000
+Skill 186 滅神核爆: Damage Formula: a.atk*10
+Skill 187 烈空閃: Damage Formula: a.atk * 5
+Skill 188 滅殺: Damage Formula: a.atk * 40
+Skill 190 ㄟ 那個陰陽人: Damage Formula: b.mhp / 10
+Skill 191 攻擊(無視防禦): Damage Formula: 0 + a.atk * 4
+Skill 195 治癒之心: Damage Formula: a.mhp / 2
+Skill 198 破甲之劍: Damage Formula: 200 + a.atk * 15 - b.def * 7.5
+Skill 199 黑暗炸裂: Damage Formula: 200 + a.mat * 4 - b.mdf * 4
+Skill 200 黑洞: Damage Formula: b.hp
+Skill 201 連突: Damage Formula: 500 + a.atk * 7 - b.def * 3
+Skill 203 亂斬: Damage Formula: 500 + a.atk * 6 - b.def * 2
+Skill 204 毒刃: Damage Formula: 500 + a.atk * 4 - b.def * 2
+Skill 205 極限體能強化: Damage Formula: a.hp / 5
+Skill 208 自我再生: Damage Formula: 
+Skill 211 煉獄: Damage Formula: 2000 + a.mat * 20
+Skill 212 蒼炎破: Damage Formula: 2000 + a.mat * 30
+Skill 214 烈焰地獄: Damage Formula: 12000 - b.mdf * 2
+Skill 215 大噴火: Damage Formula: 500 + a.mat * 20 - b.mdf * 10
+Skill 216 魔人剣: Damage Formula: 250 + a.atk * 6 - b.def * 2
+Skill 217 魔迅拳: Damage Formula: 700 + a.atk * 6 - b.def * 3
+Skill 218 烈鬼脚: Damage Formula: 250 + a.atk * 6 - b.def * 3
+Skill 219 雷神拳: Damage Formula: 250 + a.atk * 6 - b.def * 3
+Skill 220 炎獄波: Damage Formula: 750 + a.atk * 6
+Skill 222 大地的怒鳴: Damage Formula: 200 + a.mat * 5
+Skill 223 國泰的死亡注視: Damage Formula: b.hp
+Skill 224 森之祝福: Damage Formula: b.mhp
+Skill 228 爆炸燃燒: Damage Formula: 1000 + a.mat * 5
+Skill 229 絕對零度: Damage Formula: 1000 + a.mat * 5
+Skill 230 爆雷擊: Damage Formula: 500 + a.atk * 10
+Skill 231 終結之浪: Damage Formula: 1000 + a.mat * 5
+Skill 232 大地之劍: Damage Formula: 1000 + a.mat * 5
+Skill 233 暴風: Damage Formula: 1000 + a.mat * 5
+Skill 234 光刃殺: Damage Formula: 1000 + a.mat * 5
+Skill 235 影子衝鋒: Damage Formula: 750 + a.atk * 10
+Skill 237 自我再生‧限: Damage Formula: 
+Skill 242 法則切斷: Damage Formula: a.hp -= a.mhp ; b.mhp * 10
+Skill 246 狂爪: Damage Formula: 500 + a.atk * 5
+Skill 248 復活術‧秘: Damage Formula: b.mhp / 2
+Skill 251 烈空閃-爪: Damage Formula: a.atk * 10
+Skill 254 闇夜切裂: Damage Formula: a.atk * 20 + a.mat * 20 - b.def - b.mdf 
+Skill 256 大爆炸: Damage Formula: a.mat * a.mat
+Skill 257 荔枝機關槍: Damage Formula: 500 + a.atk * 3 - b.def * 2
+Skill 260 斷空: Damage Formula: 500 + a.atk * 5 + b.def
+Skill 261 四連斬: Damage Formula: 750 + a.atk * 5 - b.def * 2
+Skill 262 光刃殺: Damage Formula: 1000 + a.mat * 15
+Skill 263 闇刃殺: Damage Formula: 1000 + a.mat * 15
+Skill 264 青炎: Damage Formula: 750 + a.mat * 15
+Skill 265 地炎劍: Damage Formula: 900 + a.atk * a.mat / 100 - b.def * 3
+Skill 267 自我再生: Damage Formula: 
+Skill 268 嗜血狂劍: Damage Formula: a.atk * 15 - b.def - b.mdf
+Skill 270 死亡祈願: Damage Formula: a.add_state(1) ; b.mhp * 10
+Skill 276 吸收: Damage Formula: b.mhp / 20
+Skill 281 鑽鑽鑽: Damage Formula: 999 + a.atk * 20 - b.def * 3
+Skill 282 插旗子: Damage Formula: b.hp
+Skill 284 雷刀: Damage Formula: 0 + a.atk * 16 - b.def * 2
+Skill 285 雙雷擊: Damage Formula: 1000 + a.mat * 12 - b.mdf
+Skill 286 雷亂舞: Damage Formula: 1000 + a.mat * 12 - b.mdf
+Skill 287 爆雷擊: Damage Formula: 500 + a.atk * 30
+Skill 288 雷神殺: Damage Formula: 750 + a.atk * 20 - b.def
+Skill 289 雷神殺-眾: Damage Formula: 750 + a.atk * 20 - b.def
+Skill 292 真 Neo 超‧強力吸收 EX 改 ‧零式: Damage Formula: a.add_state(83) ; b.mhp / 2
+Skill 293 絕對吸收: Damage Formula: b.mhp * 100
+Skill 294 雷吼炮: Damage Formula: 65536 + a.mat * 50 - b.mdf * 20
+Skill 295 音爆: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 296 音爆-煌炎: Damage Formula: a.atk * 7 + a.mat * 25 - b.mdf * 2
+Skill 297 音爆-襲流: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 298 音爆-轟雷: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 299 音爆-震土: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 300 音爆-舞風: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 301 音爆-麟光: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 302 音爆-幽暗: Damage Formula: a.atk * 7 + a.mat * 20 - b.mdf * 2
+Skill 303 療癒之音: Damage Formula: b.mhp * 0.45
+Skill 304 治癒之音: Damage Formula: b.mhp * 0.25
+Skill 305 力量之音: Damage Formula: b.mhp * 0.25
+Skill 307 魔法攻擊: Damage Formula: 0 + a.mat * 4 - b.mdf * 2
+Skill 308 炎咒「延燒」: Damage Formula: 0 + a.mat * 8 - b.mdf * 4
+Skill 309 炎咒「弱點炸裂」: Damage Formula: 0 + a.mat * 12 - b.mdf * 4
+Skill 310 炎咒「集中爆破」: Damage Formula: 0 + a.mat * 12
+Skill 311 炎咒「燃燒殆盡」: Damage Formula: b.mhp
+Skill 312 炎咒「燎原」: Damage Formula: 0 + a.mat * 8 - b.mdf * 4
+Skill 313 炎咒「火海」: Damage Formula: 500 + a.mat * 9 - b.mdf * 2
+Skill 314 炎咒「流星群」: Damage Formula: 1000 + a.mat * 16 - b.mdf * 4
+Skill 315 炎咒「地獄火」: Damage Formula: 3000 + a.mat * 20 - b.mdf * 4
+Skill 316 水咒「泡沫」: Damage Formula: 0 + a.mat * 8 - b.mdf * 4
+Skill 317 水咒「水爪」: Damage Formula: 0 + a.mat * 16 - b.mdf * 4
+Skill 318 水咒「高壓水炮」: Damage Formula: 0 + a.mat * 20
+Skill 319 水咒「滴水穿石」: Damage Formula: b.mhp
+Skill 320 水咒「流水」: Damage Formula: 0 + a.mat * 8 - b.mdf * 4
+Skill 321 水咒「湧泉」: Damage Formula: 500 + a.mat * 9 - b.mdf * 2
+Skill 322 水咒「冰雨」: Damage Formula: 1000 + a.mat * 16 - b.mdf * 4
+Skill 323 水咒「海嘯」: Damage Formula: 3000 + a.mat * 30 - b.mdf * 6
+Skill 324 魔法攻擊: Damage Formula: 0 + a.mat * 4 - b.mdf * 2
+Item 41 聖經: Damage Formula: b.atk * 2 + 1000000
+Item 42 超必殺: Damage Formula: b.mhp / 9
+Item 49 肥皂: Damage Formula: b.mp += 2000 ;  2000
+Item 72 鋼琴: Damage Formula: (b.atk * 2 + 1000000) * 10
+Item 73 不滅鋼琴: Damage Formula: a.add_state(82) ; (b.atk * 2 + 1000000) * 10
+Item 184 猛毒炸藥: Damage Formula: 2500 
+Common Event 14 離開房間用 Line 5:  - Script call: $game_system.anti_lag = false
+Common Event 34 特殊戰鬥開始 Line 73:  - Script call: $swtf = Broken_Screen.new()
+Common Event 34 特殊戰鬥開始 Line 78:  - Script call: if $swtf != nil
+Common Event 34 特殊戰鬥開始 Line 79:  - Script call:       $swtf.get_bomb
+Common Event 34 特殊戰鬥開始 Line 80:  - Script call:       $swtf=nil
+Common Event 34 特殊戰鬥開始 Line 81:  - Script call:     end
+Map 1 起始地圖 - Event 1 E2 (19,34) - Page 1 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 1 E2 (19,34) - Page 1 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E2, :event)
+Map 1 起始地圖 - Event 1 E2 (19,34) - Page 1 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 2 E5~E6 (18,10) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 18:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 19:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 20:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 3 E5~E6 (20,10) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 4 E5~E6 (18,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 5 E5~E6 (20,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 6 E5~E6 (21,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 7 E5~E6 (21,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 8 E5~E6 (17,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 1 起始地圖 - Event 9 E5~E6 (17,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 11 E3 (7,8) - Page 1 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 11 E3 (7,8) - Page 1 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E3, :event)
+Map 1 起始地圖 - Event 11 E3 (7,8) - Page 1 Line 86:  - Script call: set_event_time(20) #20步後失效
+Map 1 起始地圖 - Event 12 E7 (31,8) - Page 1 Line 70:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 12 E7 (31,8) - Page 1 Line 71:  - Script call: add_talk_list(PMF::TalkScript::E7, :event)
+Map 1 起始地圖 - Event 12 E7 (31,8) - Page 1 Line 72:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 13 E4 (28,19) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 13 E4 (28,19) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E4, :event)
+Map 1 起始地圖 - Event 13 E4 (28,19) - Page 1 Line 25:  - Script call: set_event_time(20) #20步後失效
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 1 Line 24:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 1 Line 25:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 1 Line 26:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 3:  - Script call: set_event_time(30) #30步後失效
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 13:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 14:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 1 起始地圖 - Event 14 E1 (10,19) - Page 2 Line 15:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 1 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 1 Line 5:  - Script call: set_event_time(10) #10步後失效
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 3 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 3 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 1 起始地圖 - Event 22 E8 (32,44) - Page 3 Line 5:  - Script call: set_event_time(20) #20步後失效
+Map 1 起始地圖 - Event 26 切換地圖對話用 (36,49) - Page 1 Line 1:  - Script call: clear_map_talk
+Map 1 起始地圖 - Event 26 切換地圖對話用 (36,49) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::M1, :map)
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 1:  - Script call: $game_system.anti_lag = false
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 324:  - Script call: $game_party.get_task(1,"與肥婆對戰",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 325:  - Script call: "前往肥婆之塔並且打贏肥婆。
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 326:  - Script call: 獎勵：完全恢復藥水 x1")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 327:  - Script call: $game_party.get_task(2,"與國泰對戰",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 328:  - Script call: "前往國泰之城並且打贏國泰。
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 329:  - Script call: 獎勵：萬靈藥 x1")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 330:  - Script call: $game_party.get_task(3,"找到作者並與之對戰",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 331:  - Script call: "尋找利歐並且打贏他。
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 332:  - Script call: 獎勵：艾利克之斧 x1")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 333:  - Script call: $game_party.get_task(4,"與尼瑪大帝對戰",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 334:  - Script call: "前往尼瑪之塔並且打贏尼瑪大帝。
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 335:  - Script call: 獎勵：尼瑪項鍊")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 336:  - Script call: $game_party.get_task(7,"救出阿部",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 337:  - Script call: "去水之迷宮救出阿部高和。")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 362:  - Script call: $game_party.get_task(9,"試著探索一下吧",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 363:  - Script call: "在街上晃晃，看看能發現什麼")
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 388:  - Script call: $game_party.get_task(8,"前往好男人之城",
+Map 2 奇葩的開場 - Event 1 奇葩開場 (0,0) - Page 1 Line 389:  - Script call: "前往好男人之城(國泰之城)並完成劇情。")
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 1 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 1 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E31, :event)
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 1 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 1 Line 32:  - Script call: $game_party.finish_task(4)
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 2 Line 18:  - Script call: clear_event_talk #清除舊事件對話
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 2 Line 19:  - Script call: add_talk_list(PMF::TalkScript::E31, :event)
+Map 3 尼瑪之塔（內部 - Event 1 EV001 (8,3) - Page 2 Line 20:  - Script call: set_event_time(10) #10步後失效
+Map 3 尼瑪之塔（內部 - Event 3 EV003 (0,0) - Page 1 Line 1:  - Script call: clear_map_talk
+Map 3 尼瑪之塔（內部 - Event 3 EV003 (0,0) - Page 1 Line 2:  - Script call: clear_event_talk
+Map 3 尼瑪之塔（內部 - Event 3 EV003 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M3, :map)
+Map 4 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 75:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 76:  - Script call: add_talk_list(PMF::TalkScript::E42, :event)
+Map 4 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 77:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 35:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 36:  - Script call: add_talk_list(PMF::TalkScript::E41, :event)
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 37:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E45, :event)
+Map 4 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 4 EV004 (19,38) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 4 EV004 (19,38) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 5 EV005 (20,38) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 5 EV005 (20,38) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 6 EV006 (21,38) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 6 EV006 (21,38) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E44, :event)
+Map 4 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E43, :event)
+Map 4 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 70:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 71:  - Script call: add_talk_list(PMF::TalkScript::E49, :event)
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 72:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 121:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 122:  - Script call: add_talk_list(PMF::TalkScript::E49, :event)
+Map 4 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 123:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E410, :event)
+Map 4 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 185:  - Script call: $game_party.get_task(10,"出門查看",
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 186:  - Script call: "外面發生了強烈的衝擊，
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 187:  - Script call: 趕緊出門確認發生了什麼事")
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 194:  - Script call: clear_event_talk #清除舊事件對話
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 195:  - Script call: add_talk_list(PMF::TalkScript::E411, :event)
+Map 4 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 196:  - Script call: set_event_time(10) #10步後失效
+Map 4 國泰之城（外景） - Event 16 切換地圖對話用 (1,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 4 國泰之城（外景） - Event 16 切換地圖對話用 (1,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 4 國泰之城（外景） - Event 16 切換地圖對話用 (1,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M4, :map)
+Map 5 尼瑪之塔（外圍 - Event 2 EV002 (8,12) - Page 1 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 2 EV002 (8,12) - Page 2 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 3 EV003 (7,12) - Page 1 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 3 EV003 (7,12) - Page 2 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 4 EV004 (9,12) - Page 1 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 4 EV004 (9,12) - Page 2 Line 2:  - Script call: clear_event_talk #清除舊事件對話
+Map 5 尼瑪之塔（外圍 - Event 5 EV005 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 5 尼瑪之塔（外圍 - Event 5 EV005 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 5 尼瑪之塔（外圍 - Event 5 EV005 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M2, :map)
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 1 Line 8:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 1 Line 9:  - Script call: add_talk_list(PMF::TalkScript::E51, :event)
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 1 Line 10:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 2 Line 8:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 2 Line 9:  - Script call: add_talk_list(PMF::TalkScript::E51, :event)
+Map 6 國泰之城（内景）：1層 - Event 4 E51 (13,35) - Page 2 Line 10:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 1 Line 18:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 1 Line 19:  - Script call: add_talk_list(PMF::TalkScript::E56, :event)
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 1 Line 20:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 2 Line 18:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 2 Line 19:  - Script call: add_talk_list(PMF::TalkScript::E57, :event)
+Map 6 國泰之城（内景）：1層 - Event 5 E56 E57 (11,6) - Page 2 Line 20:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 1 Line 9:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 1 Line 10:  - Script call: add_talk_list(PMF::TalkScript::E54, :event)
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 1 Line 11:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E55, :event)
+Map 6 國泰之城（内景）：1層 - Event 6 E54 E55 (36,6) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E52, :event)
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E52, :event)
+Map 6 國泰之城（内景）：1層 - Event 7 E52 (24,26) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E53, :event)
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E53, :event)
+Map 6 國泰之城（内景）：1層 - Event 8 E53 (33,13) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 15:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 16:  - Script call: add_talk_list(PMF::TalkScript::E58, :event)
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 17:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 27:  - Script call: clear_event_talk #清除舊事件對話
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 28:  - Script call: add_talk_list(PMF::TalkScript::E59, :event)
+Map 6 國泰之城（内景）：1層 - Event 11 利 E58 E59 (5,6) - Page 1 Line 29:  - Script call: set_event_time(10) #10步後失效
+Map 6 國泰之城（内景）：1層 - Event 13 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 6 國泰之城（内景）：1層 - Event 13 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 6 國泰之城（内景）：1層 - Event 13 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M5, :map)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 32:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 33:  - Script call: add_talk_list(PMF::TalkScript::E68, :event)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 34:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 38:  - Script call: $game_party.finish_task(2)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 52:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 53:  - Script call: add_talk_list(PMF::TalkScript::E67, :event)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 54:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E68, :event)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E611, :event)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 5 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 5 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E612, :event)
+Map 7 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 5 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E62, :event)
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E63, :event)
+Map 7 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E64, :event)
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E64, :event)
+Map 7 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 16:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 17:  - Script call: add_talk_list(PMF::TalkScript::E66, :event)
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 18:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 16:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 17:  - Script call: add_talk_list(PMF::TalkScript::E66, :event)
+Map 7 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 18:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E65, :event)
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E65, :event)
+Map 7 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E69, :event)
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E610, :event)
+Map 7 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E61, :event)
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E61, :event)
+Map 7 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 170:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 171:  - Script call: add_talk_list(PMF::TalkScript::E611, :event)
+Map 7 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 172:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 7 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E613, :event)
+Map 7 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 7 國泰之城（内景）：2層 - Event 17 EV017 (40,19) - Page 1 Line 60:  - Script call: $game_party.finish_task(7)
+Map 7 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 7 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 7 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M5, :map)
+Map 8 肥婆之塔(外圍 - Event 2 EV002 (8,19) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 2 EV002 (8,19) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 3 EV003 (9,19) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 3 EV003 (9,19) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 4 EV004 (7,19) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 4 EV004 (7,19) - Page 2 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 8 肥婆之塔(外圍 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 8 肥婆之塔(外圍 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 8 肥婆之塔(外圍 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M9, :map)
+Map 9 肥婆之塔 1F - Event 17 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 9 肥婆之塔 1F - Event 17 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 9 肥婆之塔 1F - Event 17 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M10, :map)
+Map 10 肥婆之塔 2F - Event 15 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 10 肥婆之塔 2F - Event 15 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 10 肥婆之塔 2F - Event 15 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M11, :map)
+Map 11 肥婆之塔 3F - Event 12 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 11 肥婆之塔 3F - Event 12 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 11 肥婆之塔 3F - Event 12 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M12, :map)
+Map 12 肥婆之塔 4F - Event 11 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 12 肥婆之塔 4F - Event 11 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 12 肥婆之塔 4F - Event 11 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M13, :map)
+Map 13 肥婆之塔 5F - Event 7 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 13 肥婆之塔 5F - Event 7 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 13 肥婆之塔 5F - Event 7 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M14, :map)
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 253:  - Script call: clear_event_talk #清除舊事件對話
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 254:  - Script call: add_talk_list(PMF::TalkScript::E151, :event)
+Map 14 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 255:  - Script call: set_event_time(10) #10步後失效
+Map 14 肥婆之塔 5F 幻 - Event 7 切換地圖對話用 (0,2) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 14 肥婆之塔 5F 幻 - Event 7 切換地圖對話用 (0,2) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 14 肥婆之塔 5F 幻 - Event 7 切換地圖對話用 (0,2) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M15, :map)
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 1 Line 218:  - Script call: clear_event_talk #清除舊事件對話
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 1 Line 219:  - Script call: add_talk_list(PMF::TalkScript::E161, :event)
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 1 Line 220:  - Script call: set_event_time(10) #10步後失效
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 1 Line 224:  - Script call: $game_party.finish_task(1)
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 3 Line 104:  - Script call: clear_event_talk #清除舊事件對話
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 3 Line 105:  - Script call: add_talk_list(PMF::TalkScript::E162, :event)
+Map 15 肥婆之塔(異次元 - Event 1 EV001 (40,50) - Page 3 Line 106:  - Script call: set_event_time(10) #10步後失效
+Map 15 肥婆之塔(異次元 - Event 11 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 15 肥婆之塔(異次元 - Event 11 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 15 肥婆之塔(異次元 - Event 11 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M16, :map)
+Map 16 水之迷宮：1層 - Event 17 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 16 水之迷宮：1層 - Event 17 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 16 水之迷宮：1層 - Event 17 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M19, :map)
+Map 17 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 87:  - Script call: clear_event_talk #清除舊事件對話
+Map 17 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 88:  - Script call: add_talk_list(PMF::TalkScript::E1901, :event)
+Map 17 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 89:  - Script call: set_event_time(10) #10步後失效
+Map 18 秘密神殿（外景） - Event 2 E171 (20,25) - Page 1 Line 5:  - Script call: clear_event_talk #清除舊事件對話
+Map 18 秘密神殿（外景） - Event 2 E171 (20,25) - Page 1 Line 6:  - Script call: add_talk_list(PMF::TalkScript::E171, :event)
+Map 18 秘密神殿（外景） - Event 2 E171 (20,25) - Page 1 Line 7:  - Script call: set_event_time(10) #10步後失效
+Map 18 秘密神殿（外景） - Event 7 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 18 秘密神殿（外景） - Event 7 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 18 秘密神殿（外景） - Event 7 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M17, :map)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 1 Line 47:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 1 Line 48:  - Script call: add_talk_list(PMF::TalkScript::E181, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 1 Line 49:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 78:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 79:  - Script call: add_talk_list(PMF::TalkScript::E183, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 80:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 99:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 100:  - Script call: add_talk_list(PMF::TalkScript::E184, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 101:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 110:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 111:  - Script call: add_talk_list(PMF::TalkScript::E182, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 112:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 121:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 122:  - Script call: add_talk_list(PMF::TalkScript::E182, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 2 Line 123:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 58:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 59:  - Script call: add_talk_list(PMF::TalkScript::E183, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 60:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 80:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 81:  - Script call: add_talk_list(PMF::TalkScript::E184, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 3 Line 82:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 33:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 34:  - Script call: add_talk_list(PMF::TalkScript::E185, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 35:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 39:  - Script call: $game_party.finish_task(3)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 54:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 55:  - Script call: add_talk_list(PMF::TalkScript::E184, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 6 Line 56:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 7 Line 9:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 7 Line 10:  - Script call: add_talk_list(PMF::TalkScript::E182, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 7 Line 11:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 8 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 8 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E186, :event)
+Map 19 秘密神殿：1層 - Event 7 Leo [7] (30,36) - Page 8 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 19 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 19 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E188, :event)
+Map 19 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 19 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 19 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 19 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M18, :map)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 37:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 38:  - Script call: add_talk_list(PMF::TalkScript::E1814, :event)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 39:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 66:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 67:  - Script call: add_talk_list(PMF::TalkScript::E1813, :event)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 68:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E1812, :event)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 86:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 99:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 100:  - Script call: add_talk_list(PMF::TalkScript::E1811, :event)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 101:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 3 Line 9:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 3 Line 10:  - Script call: add_talk_list(PMF::TalkScript::E182, :event)
+Map 20 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 3 Line 11:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 25:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 26:  - Script call: add_talk_list(PMF::TalkScript::E1810, :event)
+Map 20 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 27:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E1810, :event)
+Map 20 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 25 EV025 (22,30) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 25 EV025 (22,30) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E189, :event)
+Map 20 秘密神殿：2層 - Event 25 EV025 (22,30) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 20 秘密神殿：2層 - Event 27 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 20 秘密神殿：2層 - Event 27 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 20 秘密神殿：2層 - Event 27 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M18, :map)
+Map 20 秘密神殿：2層 - Event 29 EV029 (6,30) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 20 秘密神殿：2層 - Event 29 EV029 (6,30) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E1815, :event)
+Map 20 秘密神殿：2層 - Event 29 EV029 (6,30) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E85, :event)
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 28:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 29:  - Script call: add_talk_list(PMF::TalkScript::E84, :event)
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 30:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 3 Line 210:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 3 Line 211:  - Script call: add_talk_list(PMF::TalkScript::E86, :event)
+Map 22 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 3 Line 212:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E81, :event)
+Map 22 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 3:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E82, :event)
+Map 22 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 5:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 32:  - Script call: clear_event_talk #清除舊事件對話
+Map 22 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 33:  - Script call: add_talk_list(PMF::TalkScript::E83, :event)
+Map 22 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 34:  - Script call: set_event_time(10) #10步後失效
+Map 22 國泰心中 - Event 15 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 22 國泰心中 - Event 15 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 22 國泰心中 - Event 15 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M8, :map)
+Map 23 地下室 - Event 2 EV002 (12,16) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 23 地下室 - Event 2 EV002 (12,16) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E73, :event)
+Map 23 地下室 - Event 2 EV002 (12,16) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 23 地下室 - Event 3 EV003 (12,7) - Page 1 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 23 地下室 - Event 3 EV003 (12,7) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E72, :event)
+Map 23 地下室 - Event 3 EV003 (12,7) - Page 1 Line 3:  - Script call: set_event_time(10) #10步後失效
+Map 23 地下室 - Event 4 EV004 (13,7) - Page 1 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 23 地下室 - Event 4 EV004 (13,7) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E71, :event)
+Map 23 地下室 - Event 4 EV004 (13,7) - Page 1 Line 3:  - Script call: set_event_time(10) #10步後失效
+Map 23 地下室 - Event 5 EV005 (11,7) - Page 1 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 23 地下室 - Event 5 EV005 (11,7) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E71, :event)
+Map 23 地下室 - Event 5 EV005 (11,7) - Page 1 Line 3:  - Script call: set_event_time(10) #10步後失效
+Map 23 地下室 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 23 地下室 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 23 地下室 - Event 6 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M7, :map)
+Map 25 亜空城-入口 - Event 35 EV035 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 25 亜空城-入口 - Event 35 EV035 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 25 亜空城-入口 - Event 35 EV035 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M20, :map)
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 83:  - Script call: clear_event_talk #清除舊事件對話
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 84:  - Script call: add_talk_list(PMF::TalkScript::E2002, :event)
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 85:  - Script call: set_event_time(10) #10步後失效
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 88:  - Script call: $game_party.get_task(10,"進入亞空城",
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 89:  - Script call: "進入亞空城，
+Map 25 亜空城-入口 - Event 47 L [47] (20,19) - Page 1 Line 90:  - Script call: 了解利歐又有什麼麻煩事要叫你做")
+Map 25 亜空城-入口 - Event 48 DA [48] (21,19) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 25 亜空城-入口 - Event 48 DA [48] (21,19) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E2003, :event)
+Map 25 亜空城-入口 - Event 48 DA [48] (21,19) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 26 亞空城-內部 - Event 5 EV005 (49,45) - Page 2 Line 333:  - Script call: $game_party.get_task(10,"和利歐對話",
+Map 26 亞空城-內部 - Event 5 EV005 (49,45) - Page 2 Line 334:  - Script call: "到雜項設施的門口與利歐對話")
+Map 26 亞空城-內部 - Event 30 EV030 (69,41) - Page 1 Line 24:  - Script call: $game_party.get_task(10,"和利歐對話",
+Map 26 亞空城-內部 - Event 30 EV030 (69,41) - Page 1 Line 25:  - Script call: "到地之間的門口與利歐對話")
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 2 E5~E6 (18,10) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 18:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 19:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 20:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 3 E5~E6 C1 (20,10) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 4 E5~E6 (18,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 5 E5~E6 (20,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 6 E5~E6 (21,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 7 E5~E6 (21,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 8 E5~E6 (17,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 28 起始地圖-亞空城Edition - Event 9 E5~E6 (17,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 1 Line 24:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 1 Line 25:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 1 Line 26:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 3:  - Script call: set_event_time(30) #30步後失效
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 13:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 14:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 28 起始地圖-亞空城Edition - Event 14 E1 (10,19) - Page 2 Line 15:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 15 切換地圖對話用 (37,49) - Page 1 Line 1:  - Script call: clear_map_talk
+Map 28 起始地圖-亞空城Edition - Event 15 切換地圖對話用 (37,49) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::M1, :map)
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 1 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 1 Line 5:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 3 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 3 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 28 起始地圖-亞空城Edition - Event 19 E8 (32,44) - Page 3 Line 5:  - Script call: set_event_time(20) #20步後失效
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E112, :event)
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 18:  - Script call: $game_party.get_task(10,"前往新的城堡",
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 19:  - Script call: "進入突然冒出來的城堡，
+Map 28 起始地圖-亞空城Edition - Event 21 EV021 (36,49) - Page 1 Line 20:  - Script call: 了解現在發生的事")
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 1 Line 111:  - Script call: $game_party.get_task(8,"前往奇葩之城",
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 1 Line 112:  - Script call: "到奇葩之城找到國泰的爸媽。")
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 2 Line 83:  - Script call: $game_party.get_task(8,"前往奇葩之城",
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 2 Line 84:  - Script call: "到奇葩之城找到國泰的爸媽。")
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 3 Line 80:  - Script call: $game_party.get_task(8,"前往奇葩之城",
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 3 Line 81:  - Script call: "到奇葩之城找到國泰的爸媽。")
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 4 Line 80:  - Script call: $game_party.get_task(8,"前往奇葩之城",
+Map 34 秘密神殿：1F - Event 1 赤 (30,51) - Page 4 Line 81:  - Script call: "到奇葩之城找到國泰的爸媽。")
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 1 Line 62:  - Script call: $swtf = Broken_Screen.new()
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 1 Line 66:  - Script call: if $swtf != nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 1 Line 67:  - Script call:       $swtf.get_bomb
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 1 Line 68:  - Script call:       $swtf=nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 1 Line 69:  - Script call:     end
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 2 Line 28:  - Script call: $swtf = Broken_Screen.new()
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 2 Line 32:  - Script call: if $swtf != nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 2 Line 33:  - Script call:       $swtf.get_bomb
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 2 Line 34:  - Script call:       $swtf=nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 2 Line 35:  - Script call:     end
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 5 Line 64:  - Script call: $swtf = Broken_Screen.new()
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 5 Line 68:  - Script call: if $swtf != nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 5 Line 69:  - Script call:       $swtf.get_bomb
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 5 Line 70:  - Script call:       $swtf=nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 5 Line 71:  - Script call:     end
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 6 Line 33:  - Script call: $swtf = Broken_Screen.new()
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 6 Line 37:  - Script call: if $swtf != nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 6 Line 38:  - Script call:       $swtf.get_bomb
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 6 Line 39:  - Script call:       $swtf=nil
+Map 34 秘密神殿：1F - Event 2 L (30,38) - Page 6 Line 40:  - Script call:     end
+Map 37 亞空城-雜項設施 - Event 2 EV002 (4,15) - Page 1 Line 31:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 2 EV002 (4,15) - Page 1 Line 32:  - Script call: add_talk_list(PMF::TalkScript::E2102, :event)
+Map 37 亞空城-雜項設施 - Event 2 EV002 (4,15) - Page 1 Line 33:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 4 EV004 (3,22) - Page 1 Line 5:  - Script call: shop_set(17,"金幣")
+Map 37 亞空城-雜項設施 - Event 4 EV004 (3,22) - Page 1 Line 11:  - Script call: shop_set
+Map 37 亞空城-雜項設施 - Event 4 EV004 (3,22) - Page 1 Line 12:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 4 EV004 (3,22) - Page 1 Line 13:  - Script call: add_talk_list(PMF::TalkScript::E2102, :event)
+Map 37 亞空城-雜項設施 - Event 4 EV004 (3,22) - Page 1 Line 14:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 9 EV009 (13,16) - Page 1 Line 160:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 9 EV009 (13,16) - Page 1 Line 161:  - Script call: add_talk_list(PMF::TalkScript::E2102, :event)
+Map 37 亞空城-雜項設施 - Event 9 EV009 (13,16) - Page 1 Line 162:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 24 EV024 (11,11) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 24 EV024 (11,11) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E2105, :event)
+Map 37 亞空城-雜項設施 - Event 24 EV024 (11,11) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 25 EV025 (13,9) - Page 1 Line 14:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 25 EV025 (13,9) - Page 1 Line 15:  - Script call: add_talk_list(PMF::TalkScript::E2106, :event)
+Map 37 亞空城-雜項設施 - Event 25 EV025 (13,9) - Page 1 Line 16:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 26 EV026 (5,10) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 26 EV026 (5,10) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E2107, :event)
+Map 37 亞空城-雜項設施 - Event 26 EV026 (5,10) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 37 亞空城-雜項設施 - Event 27 EV027 (3,8) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 37 亞空城-雜項設施 - Event 27 EV027 (3,8) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E2108, :event)
+Map 37 亞空城-雜項設施 - Event 27 EV027 (3,8) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 38 Stage 1-1 - Event 2 偽主角(彈射用) (12,109) - Page 2 Line 12:  - Script call: $game_system.anti_lag = true
+Map 38 Stage 1-1 - Event 3 EV003 (29,117) - Page 1 Line 7:  - Script call: $game_system.anti_lag = false
+Map 38 Stage 1-1 - Event 108 EV108 (4,135) - Page 1 Line 31:  - Script call: $game_system.anti_lag = false
+Map 40 Stage 1-2 - Event 2 偽主角(彈射用) (12,109) - Page 2 Line 12:  - Script call: $game_system.anti_lag = true
+Map 40 Stage 1-2 - Event 3 EV003 (59,117) - Page 1 Line 7:  - Script call: $game_system.anti_lag = false
+Map 40 Stage 1-2 - Event 108 EV108 (4,135) - Page 1 Line 31:  - Script call: $game_system.anti_lag = false
+Map 42 Stage 1-3 - Event 2 偽主角(彈射用) (12,109) - Page 2 Line 12:  - Script call: $game_system.anti_lag = true
+Map 42 Stage 1-3 - Event 3 EV003 (65,199) - Page 1 Line 7:  - Script call: $game_system.anti_lag = false
+Map 42 Stage 1-3 - Event 108 EV108 (4,135) - Page 1 Line 31:  - Script call: $game_system.anti_lag = false
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 127:  - Script call: i_recipe_switch_on(51)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 128:  - Script call: i_recipe_switch_on(54)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 129:  - Script call: i_recipe_switch_on(57)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 130:  - Script call: i_recipe_switch_on(64)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 131:  - Script call: w_recipe_switch_on(7)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 132:  - Script call: w_recipe_switch_on(20)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 133:  - Script call: a_recipe_switch_on(5)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 134:  - Script call: a_recipe_switch_on(10)
+Map 42 Stage 1-3 - Event 160 EV160 (65,191) - Page 2 Line 135:  - Script call: a_recipe_switch_on(15)
+Map 52 奇葩之城 - Event 4 信 & 石頭2 (44,119) - Page 1 Line 32:  - Script call: $game_party.get_task(8,"前往小丑的雜貨店",
+Map 52 奇葩之城 - Event 4 信 & 石頭2 (44,119) - Page 1 Line 33:  - Script call: "根據信上的內容前往小丑的雜貨店。")
+Map 52 奇葩之城 - Event 5 信 & 石頭1 (43,119) - Page 1 Line 32:  - Script call: $game_party.get_task(8,"前往小丑的雜貨店",
+Map 52 奇葩之城 - Event 5 信 & 石頭1 (43,119) - Page 1 Line 33:  - Script call: "根據信上的內容前往小丑的雜貨店。")
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 17:  - Script call: $game_party.get_task(8,"？？？",
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 18:  - Script call: "？？？")
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 58:  - Script call: $game_party.get_task(8,"你可以回去了",
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 59:  - Script call: "你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 60:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 61:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 62:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 63:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 64:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 65:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 66:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 67:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 68:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 3 Line 69:  - Script call: 你可以回去了")
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 50:  - Script call: $game_party.get_task(8,"你可以回去了",
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 51:  - Script call: "你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 52:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 53:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 54:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 55:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 56:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 57:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 58:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 59:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 60:  - Script call: 你可以回去了
+Map 52 奇葩之城 - Event 8 狂赤 (16,82) - Page 4 Line 61:  - Script call: 你可以回去了")
+Map 52 奇葩之城 - Event 11 EV011 (30,75) - Page 7 Line 97:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 11 EV011 (30,75) - Page 7 Line 98:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 11 EV011 (30,75) - Page 8 Line 94:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 11 EV011 (30,75) - Page 8 Line 95:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 21 EV021 (16,80) - Page 1 Line 65:  - Script call: $game_party.get_task(8,"去利歐的城裡找他",
+Map 52 奇葩之城 - Event 21 EV021 (16,80) - Page 1 Line 66:  - Script call: "去利歐的城裡找他。")
+Map 52 奇葩之城 - Event 41 赤 [41] (44,133) - Page 1 Line 86:  - Script call: $game_party.get_task(8,"去找CC男爵",
+Map 52 奇葩之城 - Event 41 赤 [41] (44,133) - Page 1 Line 87:  - Script call: "回CC男爵城並和CC男爵對話。")
+Map 52 奇葩之城 - Event 41 赤 [41] (44,133) - Page 2 Line 60:  - Script call: $game_party.get_task(8,"去找CC男爵",
+Map 52 奇葩之城 - Event 41 赤 [41] (44,133) - Page 2 Line 61:  - Script call: "回CC男爵城並和CC男爵對話。")
+Map 52 奇葩之城 - Event 63 EV063 (43,114) - Page 1 Line 66:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 63 EV063 (43,114) - Page 1 Line 67:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 63 EV063 (43,114) - Page 2 Line 63:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 63 EV063 (43,114) - Page 2 Line 64:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 64 EV064 (44,114) - Page 1 Line 66:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 64 EV064 (44,114) - Page 1 Line 67:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 64 EV064 (44,114) - Page 2 Line 63:  - Script call: $game_party.get_task(8,"抵達斐特蘭伊",
+Map 52 奇葩之城 - Event 64 EV064 (44,114) - Page 2 Line 64:  - Script call: "到斐特蘭伊去找雷歐。")
+Map 52 奇葩之城 - Event 125 EV125 (43,72) - Page 1 Line 217:  - Script call: $game_party.get_task(8,"去找國泰的爸媽",
+Map 52 奇葩之城 - Event 125 EV125 (43,72) - Page 1 Line 218:  - Script call: "前往奇葩之城的左側城堡，
+Map 52 奇葩之城 - Event 125 EV125 (43,72) - Page 1 Line 219:  - Script call: 然後找到國泰的爸媽。")
+Map 71 雜項設施 2F - Event 4 EV004 (6,6) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 71 雜項設施 2F - Event 4 EV004 (6,6) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E2109, :event)
+Map 71 雜項設施 2F - Event 4 EV004 (6,6) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 71 雜項設施 2F - Event 5 EV005 (10,7) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 71 雜項設施 2F - Event 5 EV005 (10,7) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E2110, :event)
+Map 71 雜項設施 2F - Event 5 EV005 (10,7) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 89 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 15:  - Script call: $game_party.get_task(8,"想辦法繼續遊戲",
+Map 89 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 16:  - Script call: "因為你把主線角色C走了，
+Map 89 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 17:  - Script call: 所以請你自己想辦法繼續遊戲囉～")
+Map 89 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 92:  - Script call: $game_party.get_task(8,"前往水之迷宮",
+Map 89 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 93:  - Script call: "前往水之迷宮幫好男人跟醜蛇妖協調。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 191:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 192:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 244:  - Script call: $game_party.get_task(8,"和赤對話",
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 245:  - Script call: "和赤對話後繼續接下來的劇情。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 191:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 192:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 231:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 232:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 116:  - Script call: $game_party.get_task(8,"國泰劇情主線",
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 117:  - Script call: "在國泰經歷了千辛萬苦之後
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 118:  - Script call: 終於完成了旅程。")
+Map 89 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 119:  - Script call: $game_party.finish_task(8)
+Map 89 好男人之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 89 好男人之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 89 好男人之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M5, :map)
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 7 Line 15:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 7 Line 16:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 8 Line 119:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 8 Line 120:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 9 Line 139:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 9 Line 140:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 10 Line 102:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 10 Line 103:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 11 Line 123:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 11 Line 124:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 12 Line 15:  - Script call: $game_party.get_task(8,"尋找EX醜",
+Map 94 水之迷宮：1層 - Event 14 赤 & Leo (31,30) - Page 12 Line 16:  - Script call: "到水之迷宮的底部尋找EX醜的醜蛇妖。")
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 5 Line 34:  - Script call: $game_party.get_task(8,"加油",
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 5 Line 35:  - Script call: "加油，好嗎。")
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 5 Line 38:  - Script call: $game_party.get_task(8,"回去找好男人",
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 5 Line 39:  - Script call: "告訴好男人在水之迷宮發生的事情，
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 5 Line 40:  - Script call: 然後商討對策。")
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 6 Line 27:  - Script call: $game_party.get_task(8,"加油",
+Map 95 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 6 Line 28:  - Script call: "加油，好嗎。")
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 3 Line 91:  - Script call: $game_party.get_task(8,"前往秘密神殿",
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 3 Line 92:  - Script call: "到秘密神殿找到利歐，詢問利歐
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 3 Line 93:  - Script call: 可以讓深度裡的東西回復的方法")
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 4 Line 79:  - Script call: $game_party.get_task(8,"前往秘密神殿",
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 4 Line 80:  - Script call: "到秘密神殿找到利歐，詢問利歐
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 4 Line 81:  - Script call: 可以讓深度裡的東西回復的方法")
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 5 Line 91:  - Script call: $game_party.get_task(8,"前往秘密神殿",
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 5 Line 92:  - Script call: "到秘密神殿找到利歐，詢問利歐
+Map 96 水之迷宮：B2 - Event 2 EX醜 (23,5) - Page 5 Line 93:  - Script call: 可以讓深度裡的東西回復的方法")
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 3 Line 161:  - Script call: $game_party.get_task(8,"前往秘密神殿",
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 3 Line 162:  - Script call: "到秘密神殿找到利歐，詢問利歐
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 3 Line 163:  - Script call: 讓醜蛇妖們回復的方法")
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 4 Line 161:  - Script call: $game_party.get_task(8,"前往秘密神殿",
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 4 Line 162:  - Script call: "到秘密神殿找到利歐，詢問利歐
+Map 96 水之迷宮：B2 - Event 4 EV004 (23,12) - Page 4 Line 163:  - Script call: 讓醜蛇妖們回復的方法")
+Map 98 秘密神殿：2F - Event 27 切換地圖對話用 (0,0) - Page 1 Line 1:  - Script call: clear_event_talk
+Map 98 秘密神殿：2F - Event 27 切換地圖對話用 (0,0) - Page 1 Line 2:  - Script call: clear_map_talk
+Map 98 秘密神殿：2F - Event 27 切換地圖對話用 (0,0) - Page 1 Line 3:  - Script call: add_talk_list(PMF::TalkScript::M18, :map)
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 1 Line 100:  - Script call: $game_party.get_task(8,"......",
+Map 99 小丑雜貨店 - Event 1 EV001 (12,5) - Page 1 Line 101:  - Script call: "......")
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 23:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 24:  - Script call: "ㄎㄒ臉", 0)
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 28:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 29:  - Script call: "ㄎㄒ臉", 0)
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 24:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 25:  - Script call: "ㄎㄒ臉", 0)
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 29:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 30:  - Script call: "ㄎㄒ臉", 0)
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 32:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 33:  - Script call: "ㄎㄒ臉", 0)
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 37:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 100 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 38:  - Script call: "ㄎㄒ臉", 0)
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 2 Line 137:  - Script call: $game_party.get_task(8,"偷取超炫水晶",
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 2 Line 138:  - Script call: "跟艾里說話後前往右側的城堡後門，
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 2 Line 139:  - Script call: 潛入並找尋CC男爵要的超炫水晶。")
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 138:  - Script call: $game_party.get_task(8,"到處閒晃",
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 139:  - Script call: "到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 140:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 141:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 142:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 143:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 144:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 145:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 146:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 147:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 148:  - Script call: 到處閒晃
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 5 Line 149:  - Script call: 反正該遇到的你還是會遇到。")
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 8 Line 36:  - Script call: $game_party.get_task(8,"離開利歐的堡壘",
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 8 Line 37:  - Script call: "離開堡壘到達戰場。")
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 8 Line 68:  - Script call: $game_party.get_task(8,"離開利歐的堡壘",
+Map 101 CC男爵城：2F - Event 6 CC [6] (28,15) - Page 8 Line 69:  - Script call: "離開堡壘到達戰場。")
+Map 101 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 199:  - Script call: $game_party.get_task(8,"去右側的城堡",
+Map 101 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 200:  - Script call: "按照CC男爵的話，前往右側的城堡看看。")
+Map 101 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 2 Line 200:  - Script call: $game_party.get_task(8,"去右側的城堡",
+Map 101 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 2 Line 201:  - Script call: "按照CC男爵的話，前往右側的城堡看看。")
+Map 101 CC男爵城：2F - Event 13 自動事件58 (36,17) - Page 1 Line 959:  - Script call: $game_party.get_task(8,"前往超炫水晶礦坑",
+Map 101 CC男爵城：2F - Event 13 自動事件58 (36,17) - Page 1 Line 960:  - Script call: "到超炫水晶礦坑挖取超炫水晶回來。")
+Map 105 利歐的堡壘：2層 - Event 4 EV004 (23,23) - Page 1 Line 111:  - Script call: $game_party.get_task(8,"將水晶拿給CC男爵",
+Map 105 利歐的堡壘：2層 - Event 4 EV004 (23,23) - Page 1 Line 112:  - Script call: "把得手的超炫水晶拿去給CC男爵。")
+Map 105 利歐的堡壘：2層 - Event 4 EV004 (23,23) - Page 2 Line 101:  - Script call: $game_party.get_task(8,"將水晶拿給CC男爵",
+Map 105 利歐的堡壘：2層 - Event 4 EV004 (23,23) - Page 2 Line 102:  - Script call: "把得手的超炫水晶拿去給CC男爵。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 1 Line 99:  - Script call: $game_party.get_task(8,"找到赤",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 1 Line 100:  - Script call: "進入地下室找到赤。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 6 Line 32:  - Script call: $game_party.get_task(8,"回到好男人之城",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 6 Line 33:  - Script call: "回到好男人之城並接管該城。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 6 Line 218:  - Script call: $game_party.get_task(8,"回到好男人之城",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 6 Line 219:  - Script call: "回到好男人之城並接管該城。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 9 Line 32:  - Script call: $game_party.get_task(8,"回到好男人之城",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 9 Line 33:  - Script call: "回到好男人之城並接管該城。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 9 Line 218:  - Script call: $game_party.get_task(8,"回到好男人之城",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 9 Line 219:  - Script call: "回到好男人之城並接管該城。")
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 11 Line 46:  - Script call: $game_party.get_task(8,"到秘密庭院",
+Map 105 利歐的堡壘：2層 - Event 5 Leo [5] (23,8) - Page 11 Line 47:  - Script call: "去奧爾格尼亞的祕密庭院找到利歐。")
+Map 105 利歐的堡壘：2層 - Event 6 自動事件 [6] (32,14) - Page 1 Line 674:  - Script call: $game_party.get_task(8,"離開利歐的堡壘",
+Map 105 利歐的堡壘：2層 - Event 6 自動事件 [6] (32,14) - Page 1 Line 675:  - Script call: "離開堡壘到達戰場。")
+Map 105 利歐的堡壘：2層 - Event 6 自動事件 [6] (32,14) - Page 2 Line 674:  - Script call: $game_party.get_task(8,"離開利歐的堡壘",
+Map 105 利歐的堡壘：2層 - Event 6 自動事件 [6] (32,14) - Page 2 Line 675:  - Script call: "離開堡壘到達戰場。")
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 1 Line 78:  - Script call: $game_party.get_task(8,"和赤對話",
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 1 Line 79:  - Script call: "和赤對話，
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 1 Line 80:  - Script call: 除非你有別的事情可以做。")
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 2 Line 78:  - Script call: $game_party.get_task(8,"和代班的對話",
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 2 Line 79:  - Script call: "和代班的對話，
+Map 106 利歐的堡壘：B1 - Event 6 自動 [6.44] (35,3) - Page 2 Line 80:  - Script call: 除非你有別的事情可以做。")
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 1 Line 143:  - Script call: $game_party.get_task(8,"和赤說話",
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 1 Line 144:  - Script call: "和赤一起討論該怎麼逃離牢房。")
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 2 Line 143:  - Script call: $game_party.get_task(8,"和代班的說話",
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 2 Line 144:  - Script call: "和代班的一起討論該怎麼逃離牢房。")
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 3 Line 299:  - Script call: $game_party.get_task(8,"和赤一起逃離",
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 3 Line 300:  - Script call: "和赤一起逃離牢房。")
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 4 Line 145:  - Script call: $game_party.get_task(8,"和代班的一起逃離",
+Map 106 利歐的堡壘：B1 - Event 11 赤 [11] (41,5) - Page 4 Line 146:  - Script call: "和代班的一起逃離牢房。")
+Map 109 奧爾格尼亞 - Event 41 EV041 (93,91) - Page 1 Line 126:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 41 EV041 (93,91) - Page 1 Line 127:  - Script call: "帶著不知名的小女孩到處走走吧。")
+Map 109 奧爾格尼亞 - Event 42 EV042 (43,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 42 EV042 (43,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 50 伊萊亞 [50] (54,55) - Page 1 Line 39:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 50 伊萊亞 [50] (54,55) - Page 1 Line 40:  - Script call: "追上伊萊亞。")
+Map 109 奧爾格尼亞 - Event 51 EV051 (42,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 51 EV051 (42,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 52 EV052 (44,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 52 EV052 (44,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 53 EV053 (47,90) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 53 EV053 (47,90) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 54 EV054 (47,91) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 54 EV054 (47,91) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 55 EV055 (47,92) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 109 奧爾格尼亞 - Event 55 EV055 (47,92) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 109 奧爾格尼亞 - Event 62 EV062 (13,59) - Page 1 Line 230:  - Script call: $game_party.get_task(9,"水都的守護神",
+Map 109 奧爾格尼亞 - Event 62 EV062 (13,59) - Page 1 Line 231:  - Script call: "到奧爾格尼亞最東邊走到的隱藏樓梯，
+Map 109 奧爾格尼亞 - Event 62 EV062 (13,59) - Page 1 Line 232:  - Script call: 去拯救艾蕾娜。")
+Map 109 奧爾格尼亞 - Event 209 小丑 [209] (25,34) - Page 1 Line 39:  - Script call: $game_party.get_task(9,"水都的守護神-灰暗水都",
+Map 109 奧爾格尼亞 - Event 209 小丑 [209] (25,34) - Page 1 Line 40:  - Script call: "壞結局，
+Map 109 奧爾格尼亞 - Event 209 小丑 [209] (25,34) - Page 1 Line 41:  - Script call: 守護神等全部死亡，
+Map 109 奧爾格尼亞 - Event 209 小丑 [209] (25,34) - Page 1 Line 42:  - Script call: 奧爾格尼亞變成鬼城。")
+Map 109 奧爾格尼亞 - Event 209 小丑 [209] (25,34) - Page 1 Line 45:  - Script call: $game_party.finish_task(9)
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 43:  - Script call: $game_party.get_task(9,"水都的守護神-光明的未來",
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 44:  - Script call: "好結局，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 45:  - Script call: 守護神等人和強盜二人組，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 46:  - Script call: 繼續守護奧爾格尼亞以及水之心，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 47:  - Script call: 大家都過著幸福快樂的日子。")
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 1 Line 50:  - Script call: $game_party.finish_task(9)
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 43:  - Script call: $game_party.get_task(9,"水都的守護神-光明的未來",
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 44:  - Script call: "好結局，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 45:  - Script call: 守護神等人和強盜二人組，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 46:  - Script call: 繼續守護奧爾格尼亞以及水之心，
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 47:  - Script call: 大家都過著幸福快樂的日子。")
+Map 109 奧爾格尼亞 - Event 210 Fox [210] (72,41) - Page 2 Line 50:  - Script call: $game_party.finish_task(9)
+Map 109 奧爾格尼亞 - Event 214 EV214 (3,0) - Page 1 Line 2:  - Script call: $game_party.get_task(9,"水都的守護神-任務失敗",
+Map 109 奧爾格尼亞 - Event 214 EV214 (3,0) - Page 1 Line 3:  - Script call: "因為吸了水都的居民，任務失敗")
+Map 109 奧爾格尼亞 - Event 214 EV214 (3,0) - Page 1 Line 6:  - Script call: $game_party.finish_task(9)
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 300:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 301:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 522:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 523:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 540:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{爽！！！",
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 541:  - Script call: "People3", 6)
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 635:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 2 EV002 (22,15) - Page 1 Line 636:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 300:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 301:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 522:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 523:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 540:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{爽！！！",
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 541:  - Script call: "People3", 6)
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 635:  - Script call: $game_party.get_task(8,"返回CC男爵城",
+Map 114 炫坑：B2 - Event 41 EV041 (21,15) - Page 1 Line 636:  - Script call: "把超炫水晶拿回去給CC男爵。")
+Map 115 廢案 BR 準備處 - Event 2 EV002 (8,5) - Page 1 Line 38:  - Script call: #取走玩家身上現有道具
+Map 115 廢案 BR 準備處 - Event 2 EV002 (8,5) - Page 1 Line 39:  - Script call: PlayerPropertyControl.TakeAwayAllItems()
+Map 117 準備房間 - Event 2 EV002 (8,12) - Page 1 Line 49:  - Script call: #取回玩家身上現有道具
+Map 117 準備房間 - Event 2 EV002 (8,12) - Page 1 Line 50:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 118 BOSS1 - Event 2 EV002 (18,18) - Page 1 Line 11:  - Script call: $swtf = Broken_Screen.new()
+Map 118 BOSS1 - Event 2 EV002 (18,18) - Page 1 Line 13:  - Script call: if $swtf != nil
+Map 118 BOSS1 - Event 2 EV002 (18,18) - Page 1 Line 14:  - Script call:       $swtf.get_bomb
+Map 118 BOSS1 - Event 2 EV002 (18,18) - Page 1 Line 15:  - Script call:       $swtf=nil
+Map 118 BOSS1 - Event 2 EV002 (18,18) - Page 1 Line 16:  - Script call:     end
+Map 125 橋 奧爾格尼亞 - 超炫礦坑 - Event 1 Leo [1] (28,6) - Page 1 Line 92:  - Script call: $game_party.get_task(8,"繞路回CC男爵城",
+Map 125 橋 奧爾格尼亞 - 超炫礦坑 - Event 1 Leo [1] (28,6) - Page 1 Line 93:  - Script call: "想辦法走別條路回CC男爵城。")
+Map 129 森林 - Event 7   (24,67) - Page 1 Line 238:  - Script call: msg("開始吧",
+Map 129 森林 - Event 7   (24,67) - Page 1 Line 239:  - Script call: "Fox", 1)
+Map 129 森林 - Event 16   (23,67) - Page 1 Line 238:  - Script call: msg("開始吧",
+Map 129 森林 - Event 16   (23,67) - Page 1 Line 239:  - Script call: "Fox", 1)
+Map 129 森林 - Event 17   (25,67) - Page 1 Line 238:  - Script call: msg("開始吧",
+Map 129 森林 - Event 17   (25,67) - Page 1 Line 239:  - Script call: "Fox", 1)
+Map 151 利歐居所：1層 - Event 1 Leo [1] (26,40) - Page 1 Line 148:  - Script call: msg("\\{\\{\\{\\{\\{你最沒資格這樣說！！！",
+Map 151 利歐居所：1層 - Event 1 Leo [1] (26,40) - Page 1 Line 149:  - Script call: "肥婆AND大中天", 7)
+Map 160 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 202:  - Script call: $game_party.get_task(8,"向利歐回報",
+Map 160 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 203:  - Script call: "到利歐的堡壘去找利歐，
+Map 160 斐特蘭伊 - Event 21 咻咻 [21] (37,55) - Page 1 Line 204:  - Script call: 並向他說明現在的狀況。")
+Map 161 本部 2F - Event 55 EV055 (219,140) - Page 1 Line 1:  - Script call: $swtf = Broken_Screen.new()
+Map 161 本部 2F - Event 55 EV055 (219,140) - Page 1 Line 6:  - Script call: if $swtf != nil
+Map 161 本部 2F - Event 55 EV055 (219,140) - Page 1 Line 7:  - Script call:       $swtf.get_bomb
+Map 161 本部 2F - Event 55 EV055 (219,140) - Page 1 Line 8:  - Script call:       $swtf=nil
+Map 161 本部 2F - Event 55 EV055 (219,140) - Page 1 Line 9:  - Script call:     end
+Map 161 本部 2F - Event 56 EV056 (219,141) - Page 1 Line 1:  - Script call: $swtf = Broken_Screen.new()
+Map 161 本部 2F - Event 56 EV056 (219,141) - Page 1 Line 6:  - Script call: if $swtf != nil
+Map 161 本部 2F - Event 56 EV056 (219,141) - Page 1 Line 7:  - Script call:       $swtf.get_bomb
+Map 161 本部 2F - Event 56 EV056 (219,141) - Page 1 Line 8:  - Script call:       $swtf=nil
+Map 161 本部 2F - Event 56 EV056 (219,141) - Page 1 Line 9:  - Script call:     end
+Map 161 本部 2F - Event 58 EV058 (198,140) - Page 1 Line 1:  - Script call: $swtf = Broken_Screen.new()
+Map 161 本部 2F - Event 58 EV058 (198,140) - Page 1 Line 6:  - Script call: if $swtf != nil
+Map 161 本部 2F - Event 58 EV058 (198,140) - Page 1 Line 7:  - Script call:       $swtf.get_bomb
+Map 161 本部 2F - Event 58 EV058 (198,140) - Page 1 Line 8:  - Script call:       $swtf=nil
+Map 161 本部 2F - Event 58 EV058 (198,140) - Page 1 Line 9:  - Script call:     end
+Map 161 本部 2F - Event 66 EV066 (198,141) - Page 1 Line 1:  - Script call: $swtf = Broken_Screen.new()
+Map 161 本部 2F - Event 66 EV066 (198,141) - Page 1 Line 6:  - Script call: if $swtf != nil
+Map 161 本部 2F - Event 66 EV066 (198,141) - Page 1 Line 7:  - Script call:       $swtf.get_bomb
+Map 161 本部 2F - Event 66 EV066 (198,141) - Page 1 Line 8:  - Script call:       $swtf=nil
+Map 161 本部 2F - Event 66 EV066 (198,141) - Page 1 Line 9:  - Script call:     end
+Map 170 本部 3F - Event 2 自動事件 (34,34) - Page 1 Line 997:  - Script call: msg("不是",
+Map 170 本部 3F - Event 2 自動事件 (34,34) - Page 1 Line 998:  - Script call: "People3", 6)
+Map 170 本部 3F - Event 2 自動事件 (34,34) - Page 1 Line 1214:  - Script call: msg("不必了",
+Map 170 本部 3F - Event 2 自動事件 (34,34) - Page 1 Line 1215:  - Script call: "People3", 6)
+Map 172 港口4 - Event 4 EV004 (0,0) - Page 2 Line 64:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{錯覺啦！！！！",
+Map 172 港口4 - Event 4 EV004 (0,0) - Page 2 Line 65:  - Script call: "Spiritual", 4)
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 133:  - Script call: $game_party.get_task(8,"國泰劇情主線",
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 134:  - Script call: "在國泰經歷了千C萬苦(?)之後，
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 135:  - Script call: 終於完成了旅程，
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 136:  - Script call: 然而世界上已經沒有其他人存在了，
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 137:  - Script call: 所以最終只能一個人在自己的城裡度過餘生。")
+Map 173 王城：1層 - Event 13 Leo 自動 [13] (20,11) - Page 5 Line 138:  - Script call: $game_party.finish_task(8)
+Map 176 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 71:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 176 聖堂 內部 - Event 21 席維斯 / Leo [21] (25,13) - Page 1 Line 72:  - Script call: "繼續在奧爾格尼亞參觀。")
+Map 177 庭院 - Event 4 自動事件 (0,57) - Page 3 Line 505:  - Script call: $game_party.get_task(9,"水都的守護神",
+Map 177 庭院 - Event 4 自動事件 (0,57) - Page 3 Line 506:  - Script call: "繼續在奧爾格尼亞到處走走。")
+Map 177 庭院 - Event 12 NPC [12] 自動事件 (22,15) - Page 1 Line 337:  - Script call: $game_party.get_task(9,"水都的守護神",
+Map 177 庭院 - Event 12 NPC [12] 自動事件 (22,15) - Page 1 Line 338:  - Script call: "到大聖堂打倒恩匹西。")
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 1 Line 147:  - Script call: $game_party.get_task(8,"打倒雷歐‧沃爾夫",
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 1 Line 148:  - Script call: "在亞空城裡打倒雷歐的部下，
+Map 180 奇葩之城-劇情用戰場 - Event 130 EV130 (43,72) - Page 1 Line 149:  - Script call: 並戰勝雷歐。")
+Map 181 戰場-虛無境地 - Event 1 EV001 (0,0) - Page 1 Line 117:  - Script call: $swtf = Broken_Screen.new()
+Map 181 戰場-虛無境地 - Event 1 EV001 (0,0) - Page 1 Line 122:  - Script call: if $swtf != nil
+Map 181 戰場-虛無境地 - Event 1 EV001 (0,0) - Page 1 Line 123:  - Script call:       $swtf.get_bomb
+Map 181 戰場-虛無境地 - Event 1 EV001 (0,0) - Page 1 Line 124:  - Script call:       $swtf=nil
+Map 181 戰場-虛無境地 - Event 1 EV001 (0,0) - Page 1 Line 125:  - Script call:     end
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 250:  - Script call: $game_party.get_task(8,"打倒雷歐‧沃爾夫",
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 251:  - Script call: "在亞空城裡打倒雷歐的部下，
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 252:  - Script call: 並戰勝雷歐。")
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 494:  - Script call: $game_party.get_task(8,"打倒雷歐‧沃爾夫",
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 495:  - Script call: "在亞空城裡打倒雷歐的部下，
+Map 182 最終迷宮-亞空城 - Event 24 自動C男 [24] (172,242) - Page 1 Line 496:  - Script call: 並戰勝雷歐。")
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 115:  - Script call: msg("閉嘴！沒人在跟你說話！",
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 116:  - Script call: "Inori", 4)
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 141:  - Script call: msg("來了",
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 142:  - Script call: "Inori", 0)
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 341:  - Script call: msg("閉嘴！喝茶！",
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 342:  - Script call: "Inori", 4)
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 845:  - Script call: $swtf = Broken_Screen.new()
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 849:  - Script call: if $swtf != nil
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 850:  - Script call:       $swtf.get_bomb
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 851:  - Script call:       $swtf=nil
+Map 184 戰場(?)-庭院 - Event 1 Leo [1] (32,43) - Page 1 Line 852:  - Script call:     end
+Map 187 沃爾夫城 - Event 41 EV041 (15,46) - Page 2 Line 7:  - Script call: #取走玩家身上現有道具
+Map 187 沃爾夫城 - Event 41 EV041 (15,46) - Page 2 Line 8:  - Script call: PlayerPropertyControl.TakeAwayAllItems()
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 1 Line 1:  - Script call: $game_party.get_task(8,"國泰劇情主線",
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 1 Line 2:  - Script call: "在國泰經歷了千辛萬苦之後
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 1 Line 3:  - Script call: 終於完成了旅程。")
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 1 Line 4:  - Script call: $game_party.finish_task(8)
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 2 Line 1:  - Script call: $game_party.get_task(8,"國泰劇情主線",
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 2 Line 2:  - Script call: "在國泰經歷了千C萬苦(?)之後
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 2 Line 3:  - Script call: 終於完成了旅程。")
+Map 189 沃爾夫城 房間 - Event 32 EV032 (34,134) - Page 2 Line 4:  - Script call: $game_party.finish_task(8)
+Map 189 沃爾夫城 房間 - Event 54 EV054 (21,162) - Page 1 Line 6:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 189 沃爾夫城 房間 - Event 54 EV054 (21,162) - Page 1 Line 7:  - Script call: "ㄎㄒ臉", 0)
+Map 189 沃爾夫城 房間 - Event 54 EV054 (21,162) - Page 2 Line 6:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 189 沃爾夫城 房間 - Event 54 EV054 (21,162) - Page 2 Line 7:  - Script call: "ㄎㄒ臉", 0)
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 156:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 161:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 162:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 163:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 164:  - Script call:     end
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 191:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 196:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 197:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 198:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 199:  - Script call:     end
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 220:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 225:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 226:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 227:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 228:  - Script call:     end
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 243:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 248:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 249:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 250:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 251:  - Script call:     end
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 264:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 269:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 270:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 271:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 272:  - Script call:     end
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 290:  - Script call: $swtf = Broken_Screen.new()
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 295:  - Script call: if $swtf != nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 296:  - Script call:       $swtf.get_bomb
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 297:  - Script call:       $swtf=nil
+Map 213 強盜根據地 外 - Event 6 Leo (31,20) - Page 1 Line 298:  - Script call:     end
+Map 215 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 283:  - Script call: $swtf = Broken_Screen.new()
+Map 215 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 287:  - Script call: if $swtf != nil
+Map 215 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 288:  - Script call:       $swtf.get_bomb
+Map 215 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 289:  - Script call:       $swtf=nil
+Map 215 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 290:  - Script call:     end
+Map 221 秘密庭院 - Event 1 EV001 (22,36) - Page 1 Line 480:  - Script call: msg("至少你不會",
+Map 221 秘密庭院 - Event 1 EV001 (22,36) - Page 1 Line 481:  - Script call: "臉圖無用1", 1)
+Map 222 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 308:  - Script call: $swtf = Broken_Screen.new()
+Map 222 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 312:  - Script call: if $swtf != nil
+Map 222 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 313:  - Script call:       $swtf.get_bomb
+Map 222 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 314:  - Script call:       $swtf=nil
+Map 222 瓦蘭德亞 - Event 3 Leo (21,36) - Page 1 Line 315:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 195:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 200:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 201:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 202:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 203:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 269:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 275:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 276:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 277:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 278:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 338:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 343:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 344:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 345:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 346:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 400:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 405:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 406:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 407:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 408:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 461:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 466:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 467:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 468:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 469:  - Script call:     end
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 497:  - Script call: $swtf = Broken_Screen.new()
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 500:  - Script call: if $swtf != nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 501:  - Script call:       $swtf.get_bomb
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 502:  - Script call:       $swtf=nil
+Map 224 強盜根據地 外 - Event 4 NPC (31,23) - Page 1 Line 503:  - Script call:     end
+Map 225 強盜根據地 1F - Event 1 EV001 (21,47) - Page 1 Line 36:  - Script call: $swtf = Broken_Screen.new()
+Map 225 強盜根據地 1F - Event 1 EV001 (21,47) - Page 1 Line 40:  - Script call: if $swtf != nil
+Map 225 強盜根據地 1F - Event 1 EV001 (21,47) - Page 1 Line 41:  - Script call:       $swtf.get_bomb
+Map 225 強盜根據地 1F - Event 1 EV001 (21,47) - Page 1 Line 42:  - Script call:       $swtf=nil
+Map 225 強盜根據地 1F - Event 1 EV001 (21,47) - Page 1 Line 43:  - Script call:     end
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 1 Line 24:  - Script call: $swtf = Broken_Screen.new()
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 1 Line 33:  - Script call: if $swtf != nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 1 Line 34:  - Script call:       $swtf.get_bomb
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 1 Line 35:  - Script call:       $swtf=nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 1 Line 36:  - Script call:     end
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 7 Line 172:  - Script call: msg("\\{\\{\\{這都是你害的！！",
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 7 Line 173:  - Script call: "幻_Flora", 5)
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 47:  - Script call: $swtf = Broken_Screen.new()
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 54:  - Script call: if $swtf != nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 55:  - Script call:       $swtf.get_bomb
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 56:  - Script call:       $swtf=nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 57:  - Script call:     end
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 77:  - Script call: $swtf = Broken_Screen.new()
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 85:  - Script call: if $swtf != nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 86:  - Script call:       $swtf.get_bomb
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 87:  - Script call:       $swtf=nil
+Map 233 結婚 - Event 3 婚禮主持人GE (10,12) - Page 8 Line 88:  - Script call:     end
+Map 234 雷歐主角-艾利克篇 - Event 1 E2 (19,34) - Page 1 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 1 E2 (19,34) - Page 1 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E2, :event)
+Map 234 雷歐主角-艾利克篇 - Event 1 E2 (19,34) - Page 1 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 2 E5~E6 (18,10) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 3 E5~E6 (20,10) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 4 E5~E6 (18,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 5 E5~E6 (20,14) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 6 E5~E6 (21,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 7 E5~E6 (21,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 8 E5~E6 (17,11) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E5, :event)
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 22:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 23:  - Script call: add_talk_list(PMF::TalkScript::E6, :event)
+Map 234 雷歐主角-艾利克篇 - Event 9 E5~E6 (17,13) - Page 1 Line 24:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 12 E7 (31,8) - Page 1 Line 70:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 12 E7 (31,8) - Page 1 Line 71:  - Script call: add_talk_list(PMF::TalkScript::E7, :event)
+Map 234 雷歐主角-艾利克篇 - Event 12 E7 (31,8) - Page 1 Line 72:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 13 E4 (28,19) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 13 E4 (28,19) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E4, :event)
+Map 234 雷歐主角-艾利克篇 - Event 13 E4 (28,19) - Page 1 Line 25:  - Script call: set_event_time(20) #20步後失效
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 1 Line 24:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 1 Line 25:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 1 Line 26:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 3:  - Script call: set_event_time(30) #30步後失效
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 12:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 13:  - Script call: add_talk_list(PMF::TalkScript::E1, :event)
+Map 234 雷歐主角-艾利克篇 - Event 14 E1 (10,19) - Page 2 Line 14:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 1 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 1 Line 5:  - Script call: set_event_time(10) #10步後失效
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 3 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 3 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E8, :event)
+Map 234 雷歐主角-艾利克篇 - Event 22 E8 (32,44) - Page 3 Line 5:  - Script call: set_event_time(20) #20步後失效
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 32:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 33:  - Script call: add_talk_list(PMF::TalkScript::E68, :event)
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 34:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 38:  - Script call: $game_party.finish_task(2)
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 52:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 53:  - Script call: add_talk_list(PMF::TalkScript::E67, :event)
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 1 Line 54:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E68, :event)
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E611, :event)
+Map 236 國泰之城（内景）：2層 - Event 1 國泰+阿部 (20,14) - Page 4 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E62, :event)
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E63, :event)
+Map 236 國泰之城（内景）：2層 - Event 6 E62 E63 (33,5) - Page 2 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E64, :event)
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E64, :event)
+Map 236 國泰之城（内景）：2層 - Event 7 E64 (8,12) - Page 2 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 16:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 17:  - Script call: add_talk_list(PMF::TalkScript::E66, :event)
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 1 Line 18:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 16:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 17:  - Script call: add_talk_list(PMF::TalkScript::E66, :event)
+Map 236 國泰之城（内景）：2層 - Event 8 E66 (5,36) - Page 2 Line 18:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E65, :event)
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E65, :event)
+Map 236 國泰之城（内景）：2層 - Event 9 E65 (11,19) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 10:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 11:  - Script call: add_talk_list(PMF::TalkScript::E69, :event)
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 1 Line 12:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E610, :event)
+Map 236 國泰之城（内景）：2層 - Event 10 EV010 (18,18) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E61, :event)
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E61, :event)
+Map 236 國泰之城（内景）：2層 - Event 11 E61 (27,35) - Page 2 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 170:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 171:  - Script call: add_talk_list(PMF::TalkScript::E611, :event)
+Map 236 國泰之城（内景）：2層 - Event 12 EV012 (20,15) - Page 1 Line 172:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 236 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E613, :event)
+Map 236 國泰之城（内景）：2層 - Event 16 冰士兵 (18,13) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 236 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 4 Line 36:  - Script call: $swtf = Broken_Screen.new()
+Map 236 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 4 Line 39:  - Script call: if $swtf != nil
+Map 236 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 4 Line 40:  - Script call:       $swtf.get_bomb
+Map 236 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 4 Line 41:  - Script call:       $swtf=nil
+Map 236 國泰之城（内景）：2層 - Event 19 切換地圖對話用 (1,0) - Page 4 Line 42:  - Script call:     end
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 253:  - Script call: clear_event_talk #清除舊事件對話
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 254:  - Script call: add_talk_list(PMF::TalkScript::E151, :event)
+Map 238 肥婆之塔 5F 幻 - Event 1 EV001 (25,15) - Page 1 Line 255:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 9 EV009 (23,37) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 10 EV010 (23,38) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 11 EV011 (23,39) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 12 EV012 (37,37) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 13 EV013 (37,38) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 14 EV014 (37,39) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 15 EV015 (7,21) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 18 EV018 (7,22) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 19 EV019 (7,23) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 20 EV020 (53,21) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 21 EV021 (53,22) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 7:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 8:  - Script call: add_talk_list(PMF::TalkScript::E187, :event)
+Map 239 秘密神殿：1層 - Event 22 EV022 (53,23) - Page 1 Line 9:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 239 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E188, :event)
+Map 239 秘密神殿：1層 - Event 24 EV024 (30,22) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 239 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 29:  - Script call: $swtf = Broken_Screen.new()
+Map 239 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 33:  - Script call: if $swtf != nil
+Map 239 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 34:  - Script call:       $swtf.get_bomb
+Map 239 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 35:  - Script call:       $swtf=nil
+Map 239 秘密神殿：1層 - Event 53 切換地圖對話用 (0,0) - Page 1 Line 36:  - Script call:     end
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 37:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 38:  - Script call: add_talk_list(PMF::TalkScript::E1814, :event)
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 39:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 66:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 67:  - Script call: add_talk_list(PMF::TalkScript::E1813, :event)
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 68:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E1812, :event)
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 86:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 99:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 100:  - Script call: add_talk_list(PMF::TalkScript::E1811, :event)
+Map 240 秘密神殿：2層 - Event 4 EV004 (30,7) - Page 1 Line 101:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 25:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 26:  - Script call: add_talk_list(PMF::TalkScript::E1810, :event)
+Map 240 秘密神殿：2層 - Event 7 EV007 (44,6) - Page 1 Line 27:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E1810, :event)
+Map 240 秘密神殿：2層 - Event 17 EV017 (16,6) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 240 秘密神殿：2層 - Event 25 EV025 (19,33) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 240 秘密神殿：2層 - Event 25 EV025 (19,33) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E189, :event)
+Map 240 秘密神殿：2層 - Event 25 EV025 (19,33) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 75:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 76:  - Script call: add_talk_list(PMF::TalkScript::E42, :event)
+Map 241 國泰之城（外景） - Event 2 EV002 (20,25) - Page 1 Line 77:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 35:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 36:  - Script call: add_talk_list(PMF::TalkScript::E41, :event)
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 1 Line 37:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E45, :event)
+Map 241 國泰之城（外景） - Event 3 EV003 (21,30) - Page 2 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E44, :event)
+Map 241 國泰之城（外景） - Event 9 EV009 (29,20) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E43, :event)
+Map 241 國泰之城（外景） - Event 10 EV010 (30,11) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 73:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 74:  - Script call: add_talk_list(PMF::TalkScript::E49, :event)
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 75:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 124:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 125:  - Script call: add_talk_list(PMF::TalkScript::E49, :event)
+Map 241 國泰之城（外景） - Event 12 EV012 (20,30) - Page 1 Line 126:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 4:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 5:  - Script call: add_talk_list(PMF::TalkScript::E410, :event)
+Map 241 國泰之城（外景） - Event 13 EV013 (19,30) - Page 1 Line 6:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 148:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 149:  - Script call: add_talk_list(PMF::TalkScript::E46, :event)
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 150:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 156:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 157:  - Script call: add_talk_list(PMF::TalkScript::E47, :event)
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 158:  - Script call: set_event_time(10) #10步後失效
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 162:  - Script call: clear_event_talk #清除舊事件對話
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 163:  - Script call: add_talk_list(PMF::TalkScript::E48, :event)
+Map 241 國泰之城（外景） - Event 14 L2 (20,31) - Page 1 Line 164:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E85, :event)
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 28:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 29:  - Script call: add_talk_list(PMF::TalkScript::E84, :event)
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 1 Line 30:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 2 Line 210:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 2 Line 211:  - Script call: add_talk_list(PMF::TalkScript::E86, :event)
+Map 242 國泰心中 - Event 1 偉大低孔夫子 (12,32) - Page 2 Line 212:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 1:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 2:  - Script call: add_talk_list(PMF::TalkScript::E81, :event)
+Map 242 國泰心中 - Event 7 EV007 (18,19) - Page 1 Line 3:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 3:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 4:  - Script call: add_talk_list(PMF::TalkScript::E82, :event)
+Map 242 國泰心中 - Event 9 EV009 (10,19) - Page 1 Line 5:  - Script call: set_event_time(10) #10步後失效
+Map 242 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 32:  - Script call: clear_event_talk #清除舊事件對話
+Map 242 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 33:  - Script call: add_talk_list(PMF::TalkScript::E83, :event)
+Map 242 國泰心中 - Event 10 ㄌ斯 (21,39) - Page 1 Line 34:  - Script call: set_event_time(10) #10步後失效
+Map 243 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 87:  - Script call: clear_event_talk #清除舊事件對話
+Map 243 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 88:  - Script call: add_talk_list(PMF::TalkScript::E1901, :event)
+Map 243 水之迷宮：B1 - Event 9 醜女蛇 (22,25) - Page 1 Line 89:  - Script call: set_event_time(10) #10步後失效
+Map 246 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 69:  - Script call: $game_party.get_task(8,"前往水之迷宮",
+Map 246 好男人之城（内景）：2層 - Event 1 阿部 主線 (20,14) - Page 1 Line 70:  - Script call: "前往水之迷宮幫好男人跟醜蛇妖協調。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 164:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 165:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 181:  - Script call: $game_party.get_task(8,"和赤對話",
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 1 Line 182:  - Script call: "和赤對話後繼續接下來的劇情。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 164:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 165:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 181:  - Script call: $game_party.get_task(8,"出去現在！",
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 3 Line 182:  - Script call: "到戰場上並選擇你要支持陣營。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 108:  - Script call: $game_party.get_task(8,"國泰劇情主線",
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 109:  - Script call: "在國泰經歷了千辛萬苦之後
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 110:  - Script call: 終於完成了旅程。")
+Map 246 好男人之城（内景）：2層 - Event 15 EV015 (20,15) - Page 5 Line 111:  - Script call: $game_party.finish_task(8)
+Map 251 奇葩之城 - Event 4 信 & 石頭2 (44,119) - Page 1 Line 32:  - Script call: $game_party.get_task(8,"前往小丑的雜貨店",
+Map 251 奇葩之城 - Event 4 信 & 石頭2 (44,119) - Page 1 Line 33:  - Script call: "根據信上的內容前往小丑的雜貨店。")
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 23:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 24:  - Script call: "ㄎㄒ臉", 0)
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 28:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 1 Line 29:  - Script call: "ㄎㄒ臉", 0)
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 24:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 25:  - Script call: "ㄎㄒ臉", 0)
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 29:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 2 Line 30:  - Script call: "ㄎㄒ臉", 0)
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 32:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{不孝孫！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 33:  - Script call: "ㄎㄒ臉", 0)
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 37:  - Script call: msg("\\{\\{\\{\\{\\{\\{\\{\\{\\{膝爆你！！！",
+Map 252 CC男爵城：1F - Event 3 EV003  (28,37) - Page 4 Line 38:  - Script call: "ㄎㄒ臉", 0)
+Map 253 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 94:  - Script call: $swtf = Broken_Screen.new()
+Map 253 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 97:  - Script call: if $swtf != nil
+Map 253 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 98:  - Script call:       $swtf.get_bomb
+Map 253 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 99:  - Script call:       $swtf=nil
+Map 253 CC男爵城：2F - Event 7 龍馬 [7] (28,27) - Page 1 Line 100:  - Script call:     end
+Map 255 奧爾格尼亞 - Event 42 EV042 (43,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 42 EV042 (43,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 255 奧爾格尼亞 - Event 51 EV051 (42,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 51 EV051 (42,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 255 奧爾格尼亞 - Event 52 EV052 (44,83) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 52 EV052 (44,83) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 255 奧爾格尼亞 - Event 53 EV053 (47,90) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 53 EV053 (47,90) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 255 奧爾格尼亞 - Event 54 EV054 (47,91) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 54 EV054 (47,91) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 255 奧爾格尼亞 - Event 55 EV055 (47,92) - Page 1 Line 251:  - Script call: $game_party.get_task(9,"水都之旅",
+Map 255 奧爾格尼亞 - Event 55 EV055 (47,92) - Page 1 Line 252:  - Script call: "去大聖堂看看吧。")
+Map 261 主地圖吧 - Event 1 EV001 (14,2) - Page 1 Line 38:  - Script call: $game_party.get_task(9,"序章",
+Map 261 主地圖吧 - Event 1 EV001 (14,2) - Page 1 Line 39:  - Script call: "和某個人對話吧")
+Map 261 主地圖吧 - Event 3 red和我 (19,4) - Page 3 Line 54:  - Script call: $game_party.get_task(9,"序章",
+Map 261 主地圖吧 - Event 3 red和我 (19,4) - Page 3 Line 55:  - Script call: "前往右邊的城堡並探索發生的事")
+Map 265 秘密神殿：2F - Event 4 EV004 (30,7) - Page 1 Line 104:  - Script call: $game_party.get_task(1,"序章(末)",
+Map 265 秘密神殿：2F - Event 4 EV004 (30,7) - Page 1 Line 105:  - Script call: "思考接下來的行動吧")
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 149:  - Script call: #取回玩家身上現有道具
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 150:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 465:  - Script call: #取回玩家身上現有道具
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 466:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 514:  - Script call: #取回玩家身上現有道具
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 515:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 563:  - Script call: #取回玩家身上現有道具
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 564:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 598:  - Script call: #取回玩家身上現有道具
+Map 288 塔 - Event 8 PLAYER (10,77) - Page 1 Line 599:  - Script call: PlayerPropertyControl.GiveBackAllItems()
+Map 291 亞空城-內部 舊版 - Event 2 EV002 (0,0) - Page 1 Line 14:  - Script call: clear_event_talk
+Map 291 亞空城-內部 舊版 - Event 2 EV002 (0,0) - Page 1 Line 15:  - Script call: clear_map_talk
+Map 291 亞空城-內部 舊版 - Event 2 EV002 (0,0) - Page 1 Line 16:  - Script call: add_talk_list(PMF::TalkScript::M21, :map)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21A1, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 20:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 21:  - Script call: add_talk_list(PMF::TalkScript::E21A2, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 22:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 30:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 31:  - Script call: add_talk_list(PMF::TalkScript::E21A8, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 32:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 41:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 42:  - Script call: add_talk_list(PMF::TalkScript::E21A3, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 43:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 72:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 73:  - Script call: add_talk_list(PMF::TalkScript::E21A5, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 74:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 81:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 82:  - Script call: add_talk_list(PMF::TalkScript::E21A6, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 83:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 90:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 91:  - Script call: add_talk_list(PMF::TalkScript::E21A7, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 92:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 100:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 101:  - Script call: add_talk_list(PMF::TalkScript::E21A4, :event)
+Map 291 亞空城-內部 舊版 - Event 4 愛莉絲 (50,39) - Page 2 Line 102:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 1 Line 370:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 1 Line 371:  - Script call: add_talk_list(PMF::TalkScript::E2101, :event)
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 1 Line 372:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 2 Line 351:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 2 Line 352:  - Script call: add_talk_list(PMF::TalkScript::E2101, :event)
+Map 291 亞空城-內部 舊版 - Event 5 EV005 (49,45) - Page 2 Line 353:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 30 EV030 (69,41) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 30 EV030 (69,41) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E2103, :event)
+Map 291 亞空城-內部 舊版 - Event 30 EV030 (69,41) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21C1, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 20:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 21:  - Script call: add_talk_list(PMF::TalkScript::E21C2, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 22:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 29:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 30:  - Script call: add_talk_list(PMF::TalkScript::E21C3, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 31:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 57:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 58:  - Script call: add_talk_list(PMF::TalkScript::E21C4, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 59:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 66:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 67:  - Script call: add_talk_list(PMF::TalkScript::E21C5, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 68:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 75:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 76:  - Script call: add_talk_list(PMF::TalkScript::E21C6, :event)
+Map 291 亞空城-內部 舊版 - Event 31 EV031 (79,49) - Page 1 Line 77:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21D1, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21D2, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 41:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 42:  - Script call: add_talk_list(PMF::TalkScript::E21D3, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 43:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 70:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 71:  - Script call: add_talk_list(PMF::TalkScript::E21D4, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 72:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 79:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 80:  - Script call: add_talk_list(PMF::TalkScript::E21D5, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 81:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 88:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 89:  - Script call: add_talk_list(PMF::TalkScript::E21D6, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 1 Line 90:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21D1, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21D2, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 41:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 42:  - Script call: add_talk_list(PMF::TalkScript::E21D3, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 43:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 70:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 71:  - Script call: add_talk_list(PMF::TalkScript::E21D4, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 72:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 79:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 80:  - Script call: add_talk_list(PMF::TalkScript::E21D5, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 81:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 88:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 89:  - Script call: add_talk_list(PMF::TalkScript::E21D6, :event)
+Map 291 亞空城-內部 舊版 - Event 33 EV033 (27,54) - Page 2 Line 90:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21L1, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E21L2, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 35:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 36:  - Script call: add_talk_list(PMF::TalkScript::E21L3, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 37:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 66:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 67:  - Script call: add_talk_list(PMF::TalkScript::E21L4, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 68:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 80:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 81:  - Script call: add_talk_list(PMF::TalkScript::E21L5, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 82:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 91:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 92:  - Script call: add_talk_list(PMF::TalkScript::E21L6, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 1 Line 93:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 14:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 15:  - Script call: add_talk_list(PMF::TalkScript::E21L1, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 16:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21L2, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E21L3, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 63:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 64:  - Script call: add_talk_list(PMF::TalkScript::E21L4, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 65:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 75:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 76:  - Script call: add_talk_list(PMF::TalkScript::E21L5, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 77:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E21L6, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 2 Line 86:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21L1, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E21L2, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 35:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 36:  - Script call: add_talk_list(PMF::TalkScript::E21L3, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 37:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 65:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 66:  - Script call: add_talk_list(PMF::TalkScript::E21L4, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 67:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 79:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 80:  - Script call: add_talk_list(PMF::TalkScript::E21L5, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 81:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 90:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 91:  - Script call: add_talk_list(PMF::TalkScript::E21L6, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 5 Line 92:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 14:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 15:  - Script call: add_talk_list(PMF::TalkScript::E21L1, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 16:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21L2, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E21L3, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 63:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 64:  - Script call: add_talk_list(PMF::TalkScript::E21L4, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 65:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 75:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 76:  - Script call: add_talk_list(PMF::TalkScript::E21L5, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 77:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E21L6, :event)
+Map 291 亞空城-內部 舊版 - Event 34 EV034 (15,64) - Page 6 Line 86:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 14:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 15:  - Script call: add_talk_list(PMF::TalkScript::E21S1, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 16:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21S2, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 36:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 37:  - Script call: add_talk_list(PMF::TalkScript::E21S8, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 38:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 47:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 48:  - Script call: add_talk_list(PMF::TalkScript::E21S3, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 49:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 78:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 79:  - Script call: add_talk_list(PMF::TalkScript::E21S5, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 80:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 87:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 88:  - Script call: add_talk_list(PMF::TalkScript::E21S6, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 89:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 96:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 97:  - Script call: add_talk_list(PMF::TalkScript::E21S7, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 98:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 106:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 107:  - Script call: add_talk_list(PMF::TalkScript::E21S4, :event)
+Map 291 亞空城-內部 舊版 - Event 35 修伊2 (48,39) - Page 1 Line 108:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 14:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 15:  - Script call: add_talk_list(PMF::TalkScript::E21Lea1, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 16:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 26:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 27:  - Script call: add_talk_list(PMF::TalkScript::E21Lea2, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 28:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E21Lea3, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 63:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 64:  - Script call: add_talk_list(PMF::TalkScript::E21Lea4, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 65:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 72:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 73:  - Script call: add_talk_list(PMF::TalkScript::E21Lea5, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 74:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 81:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 82:  - Script call: add_talk_list(PMF::TalkScript::E21Lea6, :event)
+Map 291 亞空城-內部 舊版 - Event 46 EV046 (0,11) - Page 1 Line 83:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 11:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 12:  - Script call: add_talk_list(PMF::TalkScript::E21Loy1, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 13:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 23:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 24:  - Script call: add_talk_list(PMF::TalkScript::E21Loy2, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 25:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 38:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 39:  - Script call: add_talk_list(PMF::TalkScript::E21Loy3, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 40:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 63:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 64:  - Script call: add_talk_list(PMF::TalkScript::E21Loy4, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 65:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 72:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 73:  - Script call: add_talk_list(PMF::TalkScript::E21Loy5, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 74:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 84:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 85:  - Script call: add_talk_list(PMF::TalkScript::E21Loy6, :event)
+Map 291 亞空城-內部 舊版 - Event 48 EV048 (25,54) - Page 1 Line 86:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 6:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 7:  - Script call: add_talk_list(PMF::TalkScript::E21K1, :event)
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 8:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 15:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 16:  - Script call: add_talk_list(PMF::TalkScript::E21K2, :event)
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 17:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 27:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 28:  - Script call: add_talk_list(PMF::TalkScript::E21K3, :event)
+Map 291 亞空城-內部 舊版 - Event 58 九 58 (25,43) - Page 1 Line 29:  - Script call: set_event_time(10) #10步後失效
+Map 291 亞空城-內部 舊版 - Event 59 EV059 (84,46) - Page 1 Line 17:  - Script call: clear_event_talk #清除舊事件對話
+Map 291 亞空城-內部 舊版 - Event 59 EV059 (84,46) - Page 1 Line 18:  - Script call: add_talk_list(PMF::TalkScript::E2104, :event)
+Map 291 亞空城-內部 舊版 - Event 59 EV059 (84,46) - Page 1 Line 19:  - Script call: set_event_time(10) #10步後失效
+Map 297 ST1-選 - Event 2 1-2 (15,0) - Page 2 Line 7:  - Script call: $game_system.anti_lag = true
+Map 297 ST1-選 - Event 2 1-2 (15,0) - Page 2 Line 26:  - Script call: $game_system.anti_lag = false
