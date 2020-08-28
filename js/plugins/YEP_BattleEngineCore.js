@@ -8,11 +8,11 @@ Imported.YEP_BattleEngineCore = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.BEC = Yanfly.BEC || {};
-Yanfly.BEC.version = 1.50;
+Yanfly.BEC.version = 1.51;
 
 //=============================================================================
  /*:
- * @plugindesc v1.50 Have more control over the flow of the battle system
+ * @plugindesc v1.51 Have more control over the flow of the battle system
  * with this plugin and alter various aspects to your liking.
  * @author Yanfly Engine Plugins
  *
@@ -881,6 +881,9 @@ Yanfly.BEC.version = 1.50;
  * ============================================================================
  * Changelog
  * ============================================================================
+ *
+ * Version 1.51:
+ * - Fixed updateBattlerName function. Thanks to ZServ.
  *
  * Version 1.50:
  * - Action sequences allow for unlimited arguments now.
@@ -2033,7 +2036,7 @@ BattleManager.loadPreForceActionSettings = function() {
       return this._subject && this._subject.isAppeared();
     } else {
       return false;
-    }    
+    }
 };
 
 BattleManager.resetPreForceActionSettings = function(settings) {
@@ -5164,10 +5167,11 @@ Window_EnemyVisualSelect.prototype.updateWindowAspects = function() {
 };
 
 Window_EnemyVisualSelect.prototype.updateBattlerName = function() {
-    if (this._battlerName !== this._battler.name())
-    this._battlerName = this._battler.name();
-    this._requestRefresh = true;
-    this._nameTextWidth = undefined;
+    if (this._battlerName !== this._battler.name()) {
+        this._battlerName = this._battler.name();
+        this._requestRefresh = true;
+        this._nameTextWidth = undefined;
+    }
 };
 
 Window_EnemyVisualSelect.prototype.updateWindowSize = function() {

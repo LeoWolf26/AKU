@@ -8,22 +8,32 @@ Imported.YEP_X_ActSeqPack1 = true;
 
 var Yanfly = Yanfly || {};
 Yanfly.ASP1 = Yanfly.ASP1 || {};
+Yanfly.ASP1.version = 1.13;
 
 //=============================================================================
  /*:
- * @plugindesc v1.03 (Requires YEP_BattleEngineCore.js) Basic functions are
+ * @plugindesc v1.13 (Requires YEP_BattleEngineCore.js) Basic functions are
  * added to the Battle Engine Core's action sequences.
  * @author Yanfly Engine Plugins
  *
  * @param Default Volume
  * @desc This will be the volume of the BGM played.
+ * @type number
+ * @min 0
+ * @max 100
  * @default 90
  *
  * @param Default Pitch
+ * @type number
+ * @min 0
+ * @max 100
  * @desc This will be the pitch of the BGM played.
  * @default 100
  *
  * @param Default Pan
+ * @type number
+ * @min 0
+ * @max 100
  * @desc This will be the pan of the BGM played.
  * @default 0
  *
@@ -125,6 +135,7 @@ Yanfly.ASP1 = Yanfly.ASP1 || {};
  *   dead actors: This will select only dead actors.
  *   actors not user; This will select all living actors except for the user.
  *   actor x; This will select the actor in slot x.
+ *   character x; This will select the specific character with actor ID x.
  *   enemies, existing enemies; This will select all living enemies.
  *   all enemies; This will select all enemies, even dead.
  *   dead enemies: This will select only dead enemies.
@@ -173,7 +184,8 @@ Yanfly.ASP1 = Yanfly.ASP1 || {};
  * Plays the common event found within the skill's/item's traits list. This
  * will only play the last common event on the list, following the game
  * engine's original process. Nothing else will continue on the action list
- * until the common event is finished.
+ * until the common event is finished (unless it is a forced action, in which
+ * case, it will wait until the action is complete first).
  *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * Usage Example: action common event
  *=============================================================================
@@ -288,6 +300,15 @@ Yanfly.ASP1 = Yanfly.ASP1 || {};
  *=============================================================================
  *
  *=============================================================================
+ * BREAK ACTION
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * This will force the remainder of the action sequences for the part of the
+ * skill/item to shut down and be skipped.
+ *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Usage Example: break action
+ *=============================================================================
+ *
+ *=============================================================================
  * CAST ANIMATION
  *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * Plays an animation on the skill's user. Will not occur if the action is
@@ -353,7 +374,8 @@ Yanfly.ASP1 = Yanfly.ASP1 || {};
  * COMMON EVENT: X
  *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * Plays common event X at that point in the action sequence. Nothing else
- * will continue until the common event is finished.
+ * will continue until the common event is finished (unless it is a forced
+ * action, in which case, it will wait until the action is complete first).
  *- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  * Usage Example: common event: 1
  *=============================================================================
@@ -696,6 +718,42 @@ Yanfly.ASP1 = Yanfly.ASP1 || {};
  * Changelog
  * ============================================================================
  *
+ * Version 1.13:
+ * - Bypass the isDevToolsOpen() error when bad code is inserted into a script
+ * call or custom Lunatic Mode code segment due to updating to MV 1.6.1.
+ *
+ * Version 1.12:
+ * - Updated for RPG Maker MV version 1.5.0.
+ *
+ * Version 1.11:
+ * - Lunatic Mode fail safes added.
+ *
+ * Version 1.10a:
+ * - Changed the 'Change Variable' action sequence to read more effectively.
+ * - Documentation update for 'Action Common Event' and 'Common Event' to
+ * indicate that they will not work immediately if used as a forced action
+ * since another event is already running.
+ *
+ * Version 1.09:
+ * - Fixed a bug that didn't allow for HP and MP buff/debuff removal.
+ *
+ * Version 1.08:
+ * - Added 'Break Action' action sequence effect to completely cancel out all
+ * of the remaining action effects.
+ *
+ * Version 1.07:
+ * - Fixed a bug with the forcing a Collapse action sequence.
+ *
+ * Version 1.06:
+ * - If using the Add State action sequence to add the Death state, it will
+ * remove immortality settings.
+ *
+ * Version 1.05:
+ * - Optimized status window to refresh at a minimum.
+ *
+ * Version 1.04:
+ * - Updated help file to include Character X for target typing.
+ *
  * Version 1.03:
  * - Fixed a bug that didn't make the sounds played work properly (again).
  *
@@ -755,6 +813,10 @@ BattleManager.processActionSequence = function(actionName, actionArgs) {
   if (['BGS', 'AMBIENCE'].contains(actionName)) {
     return this.actionBgsPlay(actionArgs);
   }
+  // BREAK ACTION
+  if (actionName === 'BREAK ACTION') {
+    return this.actionBreakAction();
+  }
   // COLLAPSE: target, (force)
   if (actionName === 'COLLAPSE') {
     return this.actionCollapse(actionArgs);
@@ -784,17 +846,9 @@ BattleManager.processActionSequence = function(actionName, actionArgs) {
   if (actionName.match(/GOLD[ ]([\+\-]\d+)/i)) {
     return this.actionGoldModify(parseInt(RegExp.$1));
   }
-  // HP +/- VALUE
-  if (actionName.match(/HP[ ](.*)/i)) {
-    return this.actionHpModify(actionName, actionArgs);
-  }
   // ME, FANFARE
   if (['ME', 'FANFARE'].contains(actionName)) {
     return this.actionMePlay(actionArgs);
-  }
-  // MP +/- VALUE
-  if (actionName.match(/MP[ ](.*)/i)) {
-    return this.actionMpModify(actionName, actionArgs);
   }
   // REFRESH STATUS, REFRESH WINDOW
   if (['REFRESH STATUS', 'REFRESH WINDOW'].contains(actionName)) {
@@ -816,6 +870,14 @@ BattleManager.processActionSequence = function(actionName, actionArgs) {
   // SE, SOUND, SFX
   if (['SE', 'SOUND', 'SFX'].contains(actionName)) {
     return this.actionSePlay(actionArgs);
+  }
+  // HP +/- VALUE
+  if (actionName.match(/HP[ ](.*)/i)) {
+    return this.actionHpModify(actionName, actionArgs);
+  }
+  // MP +/- VALUE
+  if (actionName.match(/MP[ ](.*)/i)) {
+    return this.actionMpModify(actionName, actionArgs);
   }
   // TP +/- VALUE
   if (actionName.match(/TP[ ](.*)/i)) {
@@ -885,13 +947,10 @@ BattleManager.actionAddBuff = function(actionName, actionArgs) {
     var turns = 5;
   }
   if (paramId < 0) return true;
-  var refresh = false;
   targets.forEach(function(target) {
     target.addBuff(paramId, turns);
     if (show) this._logWindow.displayActionResults(this._subject, target);
-    if (target.isActor()) refresh = true;
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -914,13 +973,10 @@ BattleManager.actionAddDebuff = function(actionName, actionArgs) {
     var turns = 5;
   }
   if (paramId < 0) return true;
-  var refresh = false;
   targets.forEach(function(target) {
     target.addDebuff(paramId, turns);
     if (show) this._logWindow.displayActionResults(this._subject, target);
-    if (target.isActor()) refresh = true;
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -937,16 +993,16 @@ BattleManager.actionAddState = function(actionName, actionArgs) {
   } else {
     return true;
   }
-  var refresh = false;
   targets.forEach(function(target) {
     for (var i = 0; i < states.length; ++i) {
       stateId = states[i];
+      if (stateId === target.deathStateId()) {
+        if (target._prevImmortalState === false) target.forceRemoveImmortal();
+      }
       target.addState(stateId);
       if (show) this._logWindow.displayActionResults(this._subject, target);
-      if (target.isActor()) refresh = true;
     }
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -1016,9 +1072,18 @@ BattleManager.actionBgsPlay = function(actionArgs) {
   return true;
 };
 
+BattleManager.actionBreakAction = function() {
+    this._targets = [];
+    this._actionList = [];
+    this._individualTargets = [];
+    this._phase = 'phaseChange';
+    return false;
+};
+
 BattleManager.actionCollapse = function(actionArgs) {
   var targets = this.makeActionTargets(actionArgs[0]);
-  var force = (actionArgs[1].toUpperCase() === 'FORCE');
+  var force = false;
+  if (actionArgs[1]) var force = (actionArgs[1].toUpperCase() === 'FORCE');
   targets.forEach(function(target) {
     if (force) {
       target.removeImmortal();
@@ -1031,7 +1096,15 @@ BattleManager.actionCollapse = function(actionArgs) {
 };
 
 BattleManager.actionCommonEvent = function(id) {
-  $gameTemp.reserveCommonEvent(id);
+  if ($gameTroop.isEventRunning()) {
+    var ev = $dataCommonEvents[id];
+    if (!ev) return;
+    var list = ev.list;
+    var interpreter = $gameTroop._interpreter;
+    interpreter.setupChild(list, 0);
+  } else {
+    $gameTemp.reserveCommonEvent(id);
+  }
   return false;
 };
 
@@ -1076,7 +1149,7 @@ BattleManager.actionChangeSwitch = function(actionName, actionArgs) {
 BattleManager.actionChangeVariable = function(actionName) {
   var cV1 =
   /CHANGE[ ](?:VARIABLE|VAR)[ ](\d+)[ ](.*)[ ](?:VARIABLE|VAR)[ ](\d+)/i;
-  var cV2 = /CHANGE[ ](?:VARIABLE|VAR)[ ](\d+)[ ](.*)[ ](.*)/i;
+  var cV2 = /CHANGE[ ](?:VARIABLE|VAR)[ ](\d+)[ ](.*?)[ ](.*)/i;
   var subject = this._subject;
   var user = this._subject;
   var target = this._targets[0];
@@ -1123,7 +1196,11 @@ BattleManager.actionEval = function(actionArgs) {
     for (var i = 1; i < actionArgs.length; ++i) {
         text = text + ', ' + String(actionArgs[i]);
     }
-    eval(text);
+    try {
+      eval(text);
+    } catch (e) {
+      Yanfly.Util.displayError(e, text, 'ACTION SEQUENCE EVAL ERROR');
+    }
     return false;
 };
 
@@ -1193,7 +1270,6 @@ BattleManager.actionHpModify = function(actionName, actionArgs) {
       if (actionArg.toUpperCase() === 'SHOW') show = true;
     }
     var value;
-    var refresh = false;
     targets.forEach(function(target) {
       target.clearResult();
       value = percent ? (target.mhp * change * 0.01) : change;
@@ -1201,10 +1277,8 @@ BattleManager.actionHpModify = function(actionName, actionArgs) {
       if (show) {
         target.startDamagePopup();
         this._logWindow.displayActionResults(this._subject, target);
-        if (target.isActor()) refresh = true;
       }
     }, this);
-    if (refresh) BattleManager.refreshStatus();
     return true;
 };
 
@@ -1258,7 +1332,6 @@ BattleManager.actionMpModify = function(actionName, actionArgs) {
       if (actionArg.toUpperCase() === 'SHOW') show = true;
     }
     var value;
-    var refresh = false;
     targets.forEach(function(target) {
       target.clearResult();
       value = percent ? (target.mmp * change * 0.01) : change;
@@ -1266,10 +1339,8 @@ BattleManager.actionMpModify = function(actionName, actionArgs) {
       if (show) {
         target.startDamagePopup();
         this._logWindow.displayActionResults(this._subject, target);
-        if (target.isActor()) refresh = true;
       }
     }, this);
-    if (refresh) BattleManager.refreshStatus();
     return true;
 };
 
@@ -1292,15 +1363,12 @@ BattleManager.actionRemoveBuff = function(actionName, actionArgs) {
     return true;
   }
   if (paramId < 0) return true;
-  var refresh = false;
   targets.forEach(function(target) {
     if (target.isBuffAffected(paramId)) {
       target.removeBuff(paramId);
       if (show) this._logWindow.displayActionResults(this._subject, target);
-      if (target.isActor()) refresh = true;
     }
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -1318,15 +1386,12 @@ BattleManager.actionRemoveDebuff = function(actionName, actionArgs) {
     return true;
   }
   if (paramId < 0) return true;
-  var refresh = false;
   targets.forEach(function(target) {
     if (target.isDebuffAffected(paramId)) {
       target.removeBuff(paramId);
       if (show) this._logWindow.displayActionResults(this._subject, target);
-      if (target.isActor()) refresh = true;
     }
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -1344,18 +1409,15 @@ BattleManager.actionRemoveState = function(actionName, actionArgs) {
   } else {
     return true;
   }
-  var refresh = false;
   targets.forEach(function(target) {
     for (var i = 0; i < states.length; ++i) {
       stateId = states[i];
       if (target.isStateAffected(stateId)) {
         target.removeState(stateId);
         if (show) this._logWindow.displayActionResults(this._subject, target);
-        if (target.isActor()) refresh = true;
       }
     }
   }, this);
-  if (refresh) BattleManager.refreshStatus();
   return true;
 };
 
@@ -1455,7 +1517,6 @@ BattleManager.actionTpModify = function(actionName, actionArgs) {
       if (actionArg.toUpperCase() === 'SHOW') show = true;
     }
     var value;
-    var refresh = false;
     targets.forEach(function(target) {
       target.clearResult();
       value = percent ? (target.maxTp() * change * 0.01) : change;
@@ -1463,11 +1524,27 @@ BattleManager.actionTpModify = function(actionName, actionArgs) {
       if (show) {
         target.startDamagePopup();
         this._logWindow.displayActionResults(this._subject, target);
-        if (target.isActor()) refresh = true;
       }
     }, this);
-    if (refresh) BattleManager.refreshStatus();
     return true;
+};
+
+//=============================================================================
+// Utilities
+//=============================================================================
+
+Yanfly.Util = Yanfly.Util || {};
+
+Yanfly.Util.displayError = function(e, code, message) {
+  console.log(message);
+  console.log(code || 'NON-EXISTENT');
+  console.error(e);
+  if (Utils.RPGMAKER_VERSION && Utils.RPGMAKER_VERSION >= "1.6.0") return;
+  if (Utils.isNwjs() && Utils.isOptionValid('test')) {
+    if (!require('nw.gui').Window.get().isDevToolsOpen()) {
+      require('nw.gui').Window.get().showDevTools();
+    }
+  }
 };
 
 //=============================================================================
